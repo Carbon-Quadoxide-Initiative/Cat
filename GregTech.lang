@@ -2181,6 +2181,7 @@ languagefile {
     S:gt.behaviour.plunger.item=Clears Items from Pipes
     S:gt.behaviour.prospecting=Usable for Prospecting
     S:gt.behaviour.scanning=Can scan Blocks in World
+    S:gt.behaviour.scoop=Catches Butterflies on Leftclick
     S:gt.behaviour.sense=Rightclick to harvest Crop Sticks
     S:gt.behaviour.sensorkit.tooltip=Used to display Information using the Mod Nuclear Control
     S:gt.behaviour.softhammer=Activates and Deactivates Machines
@@ -6915,6 +6916,7 @@ languagefile {
     S:gt.coil01tooltip=Base Heating Capacity = 1800 Kelvin
     S:gt.coil02tooltip=Base Heating Capacity = 2700 Kelvin
     S:gt.coil03tooltip=Base Heating Capacity = 3600 Kelvin
+    S:gt.integrated_circuit.configuration=Configuration: 
     S:gt.integrated_circuit.name=Integrated Circuit
     S:gt.metaitem.01.10.name=Tiny Pile of Carbon Dust
     S:gt.metaitem.01.10.tooltip=C
@@ -24092,6 +24094,7 @@ languagefile {
     S:gt.research.page.1.GT_WOOD_TO_CHARCOAL=You have discovered a way of making charcoal magically instead of using regular ovens for this purpose.<BR><BR>To create charcoal from wood you first need an air-free environment, some vacuus essentia is needed for that, then you need to incinerate the wood using ignis essentia and wait until all the water inside the wood is burned away.<BR><BR>This method however doesn't create creosote oil as byproduct.
     S:gt.runfastertooltip=You can walk faster on this Block
     S:gt.sensorcard.name=GregTech Sensor Card
+    S:gt.sensorcard.tooltip_main=Insert into Display Panel
     S:ic.recipe.compressor=Compressor
     S:ic.recipe.extractor=Extractor
     S:ic.recipe.orewasher=Ore Washer
