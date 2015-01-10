@@ -1,0 +1,31 @@
+GT_Mod: Preload-Phase started!
+GT_Mod: Getting required Items of other Mods.
+GT_Mod: Setting Configs
+GT_Mod: Downloading Cape List.
+GT_Mod: Saving Main Config
+GT_Mod: Generating Lang-File
+GT_Mod: Downloading News.
+GT_Mod: Removing all original Scrapbox Drops.
+GT_Mod: Adding Scrap with a Weight of 200.0F to the Scrapbox Drops.
+GT_Mod: Register Ore processing.
+GT_Mod: Register OreDict Entries of Non-GT-Items.
+GT_Mod: Loading Item Data Tags
+GT_Mod: Register Books.
+GT_Mod: Added Book to Book List  -  Mapping: 'Manual_Printer'  -  Name: 'Printer Manual V2.0'  -  Author: 'Gregorius Techneticies'
+GT_Mod: Added Book to Book List  -  Mapping: 'Manual_Punch_Cards'  -  Name: 'Punch Card Manual V0.0'  -  Author: 'Gregorius Techneticies'
+GT_Mod: Added Book to Book List  -  Mapping: 'Manual_Microwave'  -  Name: 'Microwave Oven Manual'  -  Author: 'Kitchen Industries'
+GT_Mod: Register Items.
+GT_Mod: Adding Blocks.
+GT_Mod: Register TileEntities.
+GT_Mod: Testing BaseMetaTileEntity.
+GT_Mod: Registering the BaseMetaTileEntity.
+GT_Mod: Registering the BaseMetaPipeEntity.
+GT_Mod: Registering the Ore TileEntity.
+GT_Mod: Registering Fluids.
+GT_Mod: Hiding certain Items from NEI.
+GT_Mod: Registering MetaTileEntities.
+GT_Mod: Register Redstone Circuit behaviours.
+GT_Mod: Adding Cover Behaviors
+GT_Mod: Loading Sonictron Sounds
+GT_Mod: Sorting GregTech to the end of the Mod List for further processing.
+GT_Mod: Preload-Phase finished!

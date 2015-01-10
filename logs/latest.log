@@ -1,10 +1,200 @@
-[20:21:24] [main/INFO]: Setting user: QubicRage
-[20:21:27] [Client thread/INFO]: LWJGL Version: 2.9.1
-[20:21:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
-[20:21:38] [Sound Library Loader/INFO]: Sound engine started
-[20:21:44] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:21:45] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:21:45] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
-[20:21:46] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:21:46] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:21:47] [Sound Library Loader/INFO]: Sound engine started
+[15:44:12] [main/INFO]: Setting user: QubicRage
+[15:44:13] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:44:30] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Furnace 3D, FMLFileResourcePack:Adventure Backpack, FMLFileResourcePack:Antique Atlas, FMLFileResourcePack:AppleCore, FMLFileResourcePack:Applied Energistics 2, FMLFileResourcePack:BD Lib, FMLFileResourcePack:Better Foliage, FMLFileResourcePack:BetterStorage, FMLFileResourcePack:Better Title Screen, FMLFileResourcePack:BiblioCraft, FMLFileResourcePack:BiblioWoods Biomes O'Plenty Edition, FMLFileResourcePack:The BigTrees Mod, FMLFileResourcePack:3D Blocks Mod, FMLFileResourcePack:Calendar Gui, FMLFileResourcePack:Carpenter's Blocks, FMLFileResourcePack:Chisel, FMLFileResourcePack:D3Core, FMLFileResourcePack:DeathCounter, FMLFileResourcePack:Dynamic Liquid Tanks 2.1, FMLFileResourcePack:EnetBridge, FMLFileResourcePack:EnviroMine, FMLFileResourcePack:ExtraCells, FMLFileResourcePack:Fast Leaf Decay, FMLFileResourcePack:Flat Signs, FMLFileResourcePack:Fog Nerf, FMLFileResourcePack:Forestry for Minecraft, FMLFileResourcePack:Funky Locomotion, FMLFileResourcePack:GenDustry, FMLFileResourcePack:GregTech, FMLFileResourcePack:Growthcraft Apples, FMLFileResourcePack:Growthcraft Bamboo, FMLFileResourcePack:Growthcraft Bees, FMLFileResourcePack:Growthcraft Cellar, FMLFileResourcePack:Growthcraft, FMLFileResourcePack:Growthcraft Fishtrap, FMLFileResourcePack:Growthcraft Grapes, FMLFileResourcePack:Growthcraft Hops, FMLFileResourcePack:Growthcraft Rice, FMLFileResourcePack:Hardcore Darkness, FMLFileResourcePack:Hunger Overhaul, FMLFileResourcePack:Nuclear Control 2, FMLFileResourcePack:iChunUtil, FMLFileResourcePack:Iguana Tweaks, FMLFileResourcePack:In-Game wiki Mod, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:Iron Chest, FMLFileResourcePack:JABBA, FMLFileResourcePack:MineMenu, FMLFileResourcePack:ModpackTweaks, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Botany, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Addons: Ex Nihilo, FMLFileResourcePack:NEI Integration, FMLFileResourcePack:NotEnoughCodecs, FMLFileResourcePack:NotEnoughKEys, FMLFileResourcePack:ObsidiPlates, FMLFileResourcePack:OpenBlocks, FMLFileResourcePack:OpenMods, FMLFileResourcePack:MapWriter, FMLFileResourcePack:Opis, FMLFileResourcePack:PlaceableTools, FMLFileResourcePack:Plant Mega Pack, FMLFileResourcePack:ProjectRed, FMLFileResourcePack:ProjectRed-Compatibility, FMLFileResourcePack:ProjectRed-Integration, FMLFileResourcePack:ProjectRed-Transmission, FMLFileResourcePack:ProjectRed-Illumination, FMLFileResourcePack:Quick Hotbar, FMLFileResourcePack:Railcraft, FMLFileResourcePack:Reliquary, FMLFileResourcePack:Super Crafting Frame, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:Thaumcraft Mob Aspects, FMLFileResourcePack:Thaumcraft NEI Plugin, FMLFileResourcePack:Thaumic NEI, FMLFileResourcePack:Thirst Mod, FMLFileResourcePack:TorchTools, FMLFileResourcePack:ttCore, FMLFileResourcePack:Waila, FMLFileResourcePack:Waila Harvestability, FMLFileResourcePack:WAILA Plugins, FMLFileResourcePack:WaslieCore, FMLFileResourcePack:Zyin's HUD, FMLFileResourcePack:Baubles, FMLFileResourcePack:Forestry Extras, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:libsandstone, FMLFileResourcePack:MrTJPCoreMod
+[15:44:30] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[15:44:30] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[15:44:30] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[15:44:30] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[15:44:30] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[15:44:30] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[15:44:30] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[15:44:30] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[15:44:30] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[15:44:30] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[15:44:30] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[15:44:30] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[15:44:30] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[15:44:30] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[15:44:30] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[15:45:03] [Sound Library Loader/INFO]: Sound engine started
+[15:45:04] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_640_extracells.block.walrus.png
+java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_640_extracells.block.walrus.png
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(SourceFile:51) ~[bqq.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SourceFile:55) ~[brg.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:125) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110551_a(TextureMap.java:90) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110579_a(SourceFile:72) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110580_a(SourceFile:61) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_130088_a(SourceFile:52) [bqf.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:537) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_71]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_71]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_71]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_71]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[15:45:04] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_769_grc.bambooSlab.png
+java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_769_grc.bambooSlab.png
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(SourceFile:51) ~[bqq.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SourceFile:55) ~[brg.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:125) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110551_a(TextureMap.java:90) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110579_a(SourceFile:72) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110580_a(SourceFile:61) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_130088_a(SourceFile:52) [bqf.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:537) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_71]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_71]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_71]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_71]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[15:45:04] [Client thread/ERROR]: Unable to parse metadata from chisel:textures/blocks/autoChisel.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_147964_a(TextureAtlasSprite.java:215) ~[bqd.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:169) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110551_a(TextureMap.java:90) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110579_a(SourceFile:72) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110580_a(SourceFile:61) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_130088_a(SourceFile:52) [bqf.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:537) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_71]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_71]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_71]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_71]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[15:45:07] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_770_grc.bambooSlab.png
+java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_770_grc.bambooSlab.png
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(SourceFile:51) ~[bqq.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SourceFile:55) ~[brg.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:125) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110551_a(TextureMap.java:90) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110579_a(SourceFile:72) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110580_a(SourceFile:61) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_130088_a(SourceFile:52) [bqf.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:537) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_71]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_71]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_71]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_71]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[15:45:11] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
+[15:45:12] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4515_extracells.fluid.item.png
+java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4515_extracells.fluid.item.png
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(SourceFile:51) ~[bqq.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SourceFile:55) ~[brg.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:125) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110551_a(TextureMap.java:90) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110579_a(SourceFile:72) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110580_a(SourceFile:61) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_130088_a(SourceFile:52) [bqf.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:538) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_71]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_71]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_71]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_71]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[15:45:13] [Client thread/ERROR]: Using missing texture, unable to load gregtech:textures/items/gt.metaitem.01/621.png
+java.io.FileNotFoundException: gregtech:textures/items/gt.metaitem.01/621.png
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(SourceFile:51) ~[bqq.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SourceFile:55) ~[brg.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:125) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110551_a(TextureMap.java:90) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110579_a(SourceFile:72) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110580_a(SourceFile:61) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_130088_a(SourceFile:52) [bqf.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:538) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_71]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_71]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_71]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_71]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[15:45:13] [Client thread/ERROR]: Using missing texture, unable to load gregtech:textures/items/gt.metaitem.01/620.png
+java.io.FileNotFoundException: gregtech:textures/items/gt.metaitem.01/620.png
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(SourceFile:51) ~[bqq.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SourceFile:55) ~[brg.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:125) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110551_a(TextureMap.java:90) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110579_a(SourceFile:72) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110580_a(SourceFile:61) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_130088_a(SourceFile:52) [bqf.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:538) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_71]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_71]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_71]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_71]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[15:45:13] [Client thread/ERROR]: Using missing texture, unable to load gregtech:textures/items/gt.metaitem.01/623.png
+java.io.FileNotFoundException: gregtech:textures/items/gt.metaitem.01/623.png
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(SourceFile:51) ~[bqq.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SourceFile:55) ~[brg.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:125) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110551_a(TextureMap.java:90) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110579_a(SourceFile:72) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110580_a(SourceFile:61) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_130088_a(SourceFile:52) [bqf.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:538) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_71]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_71]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_71]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_71]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[15:45:13] [Client thread/ERROR]: Using missing texture, unable to load gregtech:textures/items/gt.metaitem.01/622.png
+java.io.FileNotFoundException: gregtech:textures/items/gt.metaitem.01/622.png
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(SourceFile:51) ~[bqq.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SourceFile:55) ~[brg.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:125) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110551_a(TextureMap.java:90) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110579_a(SourceFile:72) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110580_a(SourceFile:61) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_130088_a(SourceFile:52) [bqf.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:538) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_71]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_71]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_71]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_71]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[15:45:13] [Client thread/ERROR]: Using missing texture, unable to load gregtech:textures/items/gt.metaitem.01/624.png
+java.io.FileNotFoundException: gregtech:textures/items/gt.metaitem.01/624.png
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(SourceFile:51) ~[bqq.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SourceFile:55) ~[brg.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:125) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110551_a(TextureMap.java:90) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110579_a(SourceFile:72) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110580_a(SourceFile:61) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_130088_a(SourceFile:52) [bqf.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:538) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_71]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_71]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_71]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_71]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[15:45:13] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
