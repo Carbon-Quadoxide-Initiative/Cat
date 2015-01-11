@@ -123,8 +123,6 @@ UNKNOWN -> paneGlassOrange
 UNKNOWN -> dyeWhite
 UNKNOWN -> blockGlassWhite
 UNKNOWN -> paneGlassWhite
-appliedenergistics2 -> oreCertusQuartz
-appliedenergistics2 -> oreCertusQuartz
 Thaumcraft -> oreCinnabar
 Thaumcraft -> oreInfusedAir
 Thaumcraft -> oreInfusedFire
@@ -161,8 +159,11 @@ Thaumcraft -> logWood
 Thaumcraft -> logWood
 Thaumcraft -> plankWood
 Thaumcraft -> plankWood
+appliedenergistics2 -> oreCertusQuartz
+appliedenergistics2 -> oreCertusQuartz
 betterstorage -> sheetCardboard
 chisel -> marble is invalid due to being solely lowercased.
+chisel -> blockMarble
 chisel -> limestone is invalid due to being solely lowercased.
 chisel -> concrete is invalid due to being solely lowercased.
 chisel -> dirt uses a Prefix as full OreDict Name, and is therefor invalid.
@@ -205,6 +206,7 @@ chisel -> stainedGlassPaneGreen
 chisel -> stainedGlassPaneRed
 chisel -> stainedGlassPaneBlack
 chisel -> blockWaterstone is getting ignored via hardcode.
+chisel -> fantasy2 is invalid due to being solely lowercased.
 IC2 -> turningBlankIronHandle
 IC2 -> turningBlankIronDrill
 IC2 -> oreCopper
@@ -298,7 +300,6 @@ IC2 -> circuitAdvanced
 IC2 -> gemDiamond
 IC2 -> craftingToolForgeHammer
 IC2 -> craftingToolWireCutter
-enviromine -> oreCoal
 Forestry -> oreApatite
 Forestry -> oreCopper
 Forestry -> oreTin
@@ -10376,6 +10377,46 @@ Growthcraft|Hops -> listAllseed
 Growthcraft|Rice -> cropRice
 Growthcraft|Rice -> seedRice
 Growthcraft|Rice -> listAllseed
+ihl -> oreLimestone
+ihl -> oreGypsum
+ihl -> orePotassiumFeldspar
+ihl -> oreApatite
+ihl -> oreSaltpeter
+ihl -> stickSteel
+ihl -> dustQuicklime
+ihl -> dustCalcite
+ihl -> dustGypsum
+ihl -> dustPotassiumFeldspar
+ihl -> gemApatite
+ihl -> dustSaltpeter
+ihl -> ingotTarPitch
+ihl -> nuggetTarPitch
+ihl -> stickGraphite
+ihl -> stickCoal
+ihl -> dustCarborundum
+gregtech -> dustIridiumSodiumOxide
+ihl -> dustIridiumAndSodiumOxide uses a deprecated Material and is getting re-registered as dustIridiumSodiumOxide
+ihl -> dustPlatinumGroupSludge
+ihl -> dustTinyPlatinumGroupSludge
+ihl -> dustSodiumPeroxide
+ihl -> cellRubberTreeSap
+ihl -> cellSpruceResin uses an unknown Material. Report this to GregTech.
+ihl -> cellCablingColophony uses an unknown Material. Report this to GregTech.
+ihl -> cellGlyceryl
+ihl -> cellSeedOil
+ihl -> cellAquaRegia
+ihl -> cellSodiumPeroxide
+ihl -> cellOsmiumTetroxide
+ihl -> cellOleicAcid uses an unknown Material. Report this to GregTech.
+ihl -> cellLimemilk uses an unknown Material. Report this to GregTech.
+ihl -> cellNickelSulfateDissolvedInWater uses an unknown Material. Report this to GregTech.
+ihl -> cellBlueVitriolDissolvedInWater uses an unknown Material. Report this to GregTech.
+ihl -> cellMoltenSteel uses an unknown Material. Report this to GregTech.
+ihl -> cellMoltenBronze uses an unknown Material. Report this to GregTech.
+ihl -> cellVapourSulfuricAcid uses an unknown Material. Report this to GregTech.
+ihl -> cellSulfuricAnhydride uses an unknown Material. Report this to GregTech.
+ihl -> cellSulfuricAcid
+ihl -> cellNitricAcid
 plantmegapack -> hangingFlowersMIX
 plantmegapack -> hangingFlowersRED
 plantmegapack -> hangingFlowersCOR
@@ -10946,6 +10987,27 @@ gregtech -> treeSaplingGreatwood
 ForestryExtras -> saplingSilverwood uses a depricated Prefix, and is getting re-registered as treeSaplingSilverwood
 gregtech -> treeSaplingSilverwood
 ForgeMicroblock -> rodStone
+AgriCraft -> listAllseed
+AgriCraft -> listAllseed
+AgriCraft -> listAllseed
+AgriCraft -> listAllseed
+AgriCraft -> listAllseed
+AgriCraft -> listAllseed
+AgriCraft -> listAllseed
+AgriCraft -> listAllseed
+AgriCraft -> listAllseed
+AgriCraft -> listAllseed
+AgriCraft -> listAllseed
+AgriCraft -> listAllseed
+AgriCraft -> listAllseed
+AgriCraft -> listAllseed
+AgriCraft -> listAllseed
+AgriCraft -> listAllseed
+AgriCraft -> listAllseed
+AgriCraft -> listAllseed
+AgriCraft -> listAllseed
+AgriCraft -> listAllseed
+AgriCraft -> listAllseed
 gregtech -> craftingQuartz
 gregtech -> gemFluix
 appliedenergistics2 -> crystalFluix
@@ -10988,40 +11050,6 @@ chisel -> stainedClayRed
 chisel -> blockWoolRed
 chisel -> stainedClayBlack
 chisel -> blockWoolBlack
-gendustry -> beeComb
-gendustry -> dropHoney
-gregtech -> dye
-gendustry -> dyeBlack
-gregtech -> dye
-gendustry -> dyeRed
-gregtech -> dye
-gendustry -> dyeGreen
-gregtech -> dye
-gendustry -> dyeBrown
-gregtech -> dye
-gendustry -> dyeBlue
-gregtech -> dye
-gendustry -> dyePurple
-gregtech -> dye
-gendustry -> dyeCyan
-gregtech -> dye
-gendustry -> dyeLightGray
-gregtech -> dye
-gendustry -> dyeGray
-gregtech -> dye
-gendustry -> dyePink
-gregtech -> dye
-gendustry -> dyeLime
-gregtech -> dye
-gendustry -> dyeYellow
-gregtech -> dye
-gendustry -> dyeLightBlue
-gregtech -> dye
-gendustry -> dyeMagenta
-gregtech -> dye
-gendustry -> dyeOrange
-gregtech -> dye
-gendustry -> dyeWhite
 IronChest -> chestWood
 ProjRed|Core -> projredIllumar
 ProjRed|Core -> projredIllumar
@@ -11115,6 +11143,3 @@ JABBA --Late--> obsidian uses a Prefix as full OreDict Name, and is therefor inv
 JABBA --Late--> whiteStone is getting ignored via hardcode.
 JABBA --Late--> transdimBlock is getting ignored via hardcode.
 GT_Mod: Beginning PostLoad-Phase.
-GT_Mod: PostLoad-Phase finished!
-GT_Mod: ServerStarting-Phase started!
-GT_Mod: ServerStarting-Phase finished!

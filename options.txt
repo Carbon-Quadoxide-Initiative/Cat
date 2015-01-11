@@ -4,7 +4,7 @@ fov:0.0
 gamma:1.0
 saturation:0.0
 renderDistance:10
-guiScale:2
+guiScale:3
 particles:0
 bobView:false
 anaglyph3d:false
@@ -97,6 +97,10 @@ key_Hub Expand Key:45
 key_keybind.calendar.desc:46
 key_igwmod.keys.wiki:23
 key_key.open_menu:19
+key_minetunes.keys.menu:199
+key_minetunes.keys.playpause:207
+key_minetunes.keys.plus:209
+key_minetunes.keys.minus:201
 key_keys.adventureBackpack.openBackpackInventory:48
 key_keys.adventureBackpack.switchHoseTank:49
 key_Baubles Inventory:48
@@ -104,8 +108,6 @@ key_Change Wand Focus:33
 key_Activate Hover Harness:35
 key_key.betterstorage.backpackOpen:48
 key_key.betterstorage.drinkingHelmet:33
-key_Reload Configs:37
-key_Add/Remove Custom Config:36
 key_invtweaks.key.sort:19
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
