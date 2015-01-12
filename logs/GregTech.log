@@ -51,9 +51,9 @@ GT_Mod: Adding Blocks to the Miners Valuable List.
 GT_Mod: Adding non-OreDict Machine Recipes.
 GT_Mod: (re-)adding Scrapbox Drops.
 GT_Mod: Register Crops to IC2.
-GT_Mod: Created a List of Tool Recipes containing 148 Recipes for recycling.
+GT_Mod: Created a List of Tool Recipes containing 149 Recipes for recycling.
 GT_Mod: Activating OreDictionary Handler, this can take some time, as it scans the whole OreDictionary
-GT_Mod: 53 Recipes were left unused.
+GT_Mod: 54 Recipes were left unused.
 GT_Mod: Adding nerfed Vanilla Recipes.
 GT_Mod: Adding Vanilla Convenience Recipes.
 GT_Mod: Adding Tool Recipes.
@@ -88,6 +88,13 @@ GT_Mod: Smelting
 GT_Mod: Crafting Recipes
 GT_Mod: ServerStarting-Phase finished!
 GT_Mod: Cleaning up all OreDict Crafting Recipes, which have an empty List in them, since they are never meeting any Condition.
+GT_Mod: Setting up Icon Register for Blocks
+GT_Mod: Registering MetaTileEntity specific Textures
+GT_Mod: Registering Crop specific Textures
+GT_Mod: Starting Block Icon Load Phase
+GT_Mod: Finished Block Icon Load Phase
+GT_Mod: Starting Item Icon Load Phase
+GT_Mod: Finished Item Icon Load Phase
 *
 Printing List of all registered Objects inside the OreDictionary, now with free extra Sorting:
 *
@@ -364,7 +371,7 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  1x beachHighTideBush
  1x beachSeaLavender
  1x beachSeaSandwort
-16x beeComb
+17x beeComb
  1x beeQueen
  1x berrybushBeauty
  1x berrybushBlack
@@ -2435,6 +2442,7 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  1x crystalCertusQuartz
  1x crystalFluix
  1x crystalNetherQuartz
+ 1x crystalPureFluix
  1x crystalQuartz
  1x crystalQuartzite
  1x desertApachePlume
@@ -2456,7 +2464,7 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  1x doorBambooTimorBlack
  1x doorBambooTropicalBlue
  1x doorBambooWetForest
- 2x dropHoney
+ 3x dropHoney
  1x dropHoneydew
  1x dropRoyalJelly
  1x dustAdamant
@@ -3909,23 +3917,23 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  1x dustYttriumBariumCuprate
  1x dustZeolite
  1x dustZinc
-29x dye
- 2x dyeBlack
- 7x dyeBlue
- 6x dyeBrown
- 4x dyeCyan
- 2x dyeGray
- 2x dyeGreen
- 2x dyeLightBlue
- 2x dyeLightGray
- 2x dyeLime
- 2x dyeMagenta
- 2x dyeOrange
- 2x dyePink
- 2x dyePurple
- 2x dyeRed
- 2x dyeWhite
- 3x dyeYellow
+45x dye
+ 3x dyeBlack
+ 8x dyeBlue
+ 7x dyeBrown
+ 5x dyeCyan
+ 3x dyeGray
+ 3x dyeGreen
+ 3x dyeLightBlue
+ 3x dyeLightGray
+ 3x dyeLime
+ 3x dyeMagenta
+ 3x dyeOrange
+ 3x dyePink
+ 3x dyePurple
+ 3x dyeRed
+ 3x dyeWhite
+ 4x dyeYellow
  1x enderChest
  1x epiphyteApacheDwarf
  1x epiphyteArtistsConk
@@ -5468,7 +5476,7 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  2x itemRubber
  1x itemSalt
  1x itemSilicon
- 2x itemWheat
+ 1x itemWheat
  1x jungleConeHeadedGuzmania
  1x jungleDevilsTongue
  1x jungleHoneySpurge
@@ -11335,6 +11343,7 @@ liquid_extra_heavy_oil
 liquid_heavy_oil
 liquid_light_oil
 liquid_medium_oil
+liquiddna
 lubricant
 mcguffium
 melonjuice
@@ -11540,6 +11549,7 @@ molten.yttrium
 molten.yttriumbariumcuprate
 molten.zectium
 molten.zinc
+mutagen
 nitricacid
 nitrofuel
 nitrogen
@@ -11654,6 +11664,7 @@ potion.weakness.splash
 potion.wheatyhopsjuice
 potion.wheatyjuice
 potion.wine
+protein
 seedoil
 short.mead
 sodiumperoxide

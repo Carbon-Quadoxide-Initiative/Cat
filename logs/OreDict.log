@@ -11013,6 +11013,7 @@ gregtech -> gemFluix
 appliedenergistics2 -> crystalFluix
 appliedenergistics2 -> dustFluix
 appliedenergistics2 -> pearlFluix
+appliedenergistics2 -> crystalPureFluix uses an unknown Material. Report this to GregTech.
 appliedenergistics2 -> blockWool is wrongly registered and therefor getting ignored.
 appliedenergistics2 -> blockStainedHardenedClay is getting ignored via hardcode.
 appliedenergistics2 -> itemIlluminatedPanel
@@ -11050,6 +11051,40 @@ chisel -> stainedClayRed
 chisel -> blockWoolRed
 chisel -> stainedClayBlack
 chisel -> blockWoolBlack
+gendustry -> beeComb
+gendustry -> dropHoney
+gregtech -> dye
+gendustry -> dyeBlack
+gregtech -> dye
+gendustry -> dyeRed
+gregtech -> dye
+gendustry -> dyeGreen
+gregtech -> dye
+gendustry -> dyeBrown
+gregtech -> dye
+gendustry -> dyeBlue
+gregtech -> dye
+gendustry -> dyePurple
+gregtech -> dye
+gendustry -> dyeCyan
+gregtech -> dye
+gendustry -> dyeLightGray
+gregtech -> dye
+gendustry -> dyeGray
+gregtech -> dye
+gendustry -> dyePink
+gregtech -> dye
+gendustry -> dyeLime
+gregtech -> dye
+gendustry -> dyeYellow
+gregtech -> dye
+gendustry -> dyeLightBlue
+gregtech -> dye
+gendustry -> dyeMagenta
+gregtech -> dye
+gendustry -> dyeOrange
+gregtech -> dye
+gendustry -> dyeWhite
 ProjRed|Core -> projredIllumar
 ProjRed|Core -> projredIllumar
 ProjRed|Core -> projredIllumar
@@ -11137,7 +11172,6 @@ gregtech -> stoneObsidian
 gregtech -> paperResearch
 gregtech -> bookThaumonomicon
 GT_Mod: Load-Phase finished!
-appliedenergistics2 --Late--> itemWheat
 JABBA --Late--> chestWood
 JABBA --Late--> obsidian uses a Prefix as full OreDict Name, and is therefor invalid.
 JABBA --Late--> whiteStone is getting ignored via hardcode.

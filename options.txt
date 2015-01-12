@@ -94,8 +94,6 @@ key_Boost Key:29
 key_Mode Switch Key:50
 key_Side Inventory Key:46
 key_Hub Expand Key:45
-key_keybind.calendar.desc:46
-key_igwmod.keys.wiki:23
 key_key.open_menu:19
 key_minetunes.keys.menu:199
 key_minetunes.keys.playpause:207
@@ -108,32 +106,12 @@ key_Change Wand Focus:33
 key_Activate Hover Harness:35
 key_key.betterstorage.backpackOpen:48
 key_key.betterstorage.drinkingHelmet:33
-key_invtweaks.key.sort:19
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
 key_waila.keybind.recipe:81
 key_waila.keybind.usage:75
-key_key.mw_open_gui:50
-key_key.mw_new_marker:210
-key_key.mw_next_map_mode:49
-key_key.mw_next_marker_group:51
-key_key.mw_teleport:52
-key_key.mw_zoom_in:201
-key_key.mw_zoom_out:209
-key_key.mw_underground_mode:22
-key_key.zyinhud.animalinfo:24
-key_key.zyinhud.coordinates:59
-key_key.zyinhud.distancemeasurer:37
-key_key.zyinhud.eatingaid:34
-key_key.zyinhud.enderpearlaid:46
-key_key.zyinhud.playerlocator:25
-key_key.zyinhud.potionaid:47
-key_key.zyinhud.quickdeposit:45
-key_key.zyinhud.safeoverlay:38
-key_key.zyinhud.weaponswapper:33
-key_key.zyinhud.zyinhudoptions:44
-key_key.zyinhud.itemselector:56
+key_invtweaks.key.sort:19
 key_key.betterfoliage.gui:66
 key_key.control:29
 key_railcraft.keybind.loco.faster:52
@@ -141,7 +119,7 @@ key_railcraft.keybind.loco.slower:51
 key_railcraft.keybind.loco.mode:50
 key_railcraft.keybind.loco.whistle:49
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
