@@ -1,1 +1,7 @@
-Default file, please make sure the correct file, changelog.txt, exists in the modpackTweaks config directory before launching next time!
+Added a metric shitload of stuff.
+
+-Things
+
+-Things
+
+-Things
