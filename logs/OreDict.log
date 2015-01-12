@@ -162,51 +162,6 @@ Thaumcraft -> plankWood
 appliedenergistics2 -> oreCertusQuartz
 appliedenergistics2 -> oreCertusQuartz
 betterstorage -> sheetCardboard
-chisel -> marble is invalid due to being solely lowercased.
-chisel -> blockMarble
-chisel -> limestone is invalid due to being solely lowercased.
-chisel -> concrete is invalid due to being solely lowercased.
-chisel -> dirt uses a Prefix as full OreDict Name, and is therefor invalid.
-chisel -> holystone is invalid due to being solely lowercased.
-chisel -> lavastone is invalid due to being solely lowercased.
-chisel -> fantasy is invalid due to being solely lowercased.
-chisel -> carpet is invalid due to being solely lowercased.
-chisel -> tyrian is invalid due to being solely lowercased.
-chisel -> cloud is invalid due to being solely lowercased.
-chisel -> stainedGlassWhite
-chisel -> stainedGlassOrange
-chisel -> stainedGlassMagenta
-chisel -> stainedGlassLightBlue
-chisel -> stainedGlassYellow
-chisel -> stainedGlassLime
-chisel -> stainedGlassPink
-chisel -> stainedGlassGray
-chisel -> stainedGlassLightGray
-chisel -> stainedGlassCyan
-chisel -> stainedGlassPurple
-chisel -> stainedGlassBlue
-chisel -> stainedGlassBrown
-chisel -> stainedGlassGreen
-chisel -> stainedGlassRed
-chisel -> stainedGlassBlack
-chisel -> stainedGlassPaneWhite
-chisel -> stainedGlassPaneOrange
-chisel -> stainedGlassPaneMagenta
-chisel -> stainedGlassPaneLightBlue
-chisel -> stainedGlassPaneYellow
-chisel -> stainedGlassPaneLime
-chisel -> stainedGlassPanePink
-chisel -> stainedGlassPaneGray
-chisel -> stainedGlassPaneLightGray
-chisel -> stainedGlassPaneCyan
-chisel -> stainedGlassPanePurple
-chisel -> stainedGlassPaneBlue
-chisel -> stainedGlassPaneBrown
-chisel -> stainedGlassPaneGreen
-chisel -> stainedGlassPaneRed
-chisel -> stainedGlassPaneBlack
-chisel -> blockWaterstone is getting ignored via hardcode.
-chisel -> fantasy2 is invalid due to being solely lowercased.
 IC2 -> turningBlankIronHandle
 IC2 -> turningBlankIronDrill
 IC2 -> oreCopper
@@ -355,6 +310,51 @@ Forestry -> slabWood
 Forestry -> fenceWood
 Forestry -> treeLeaves
 Forestry -> treeSapling
+chisel -> marble is invalid due to being solely lowercased.
+chisel -> blockMarble
+chisel -> limestone is invalid due to being solely lowercased.
+chisel -> concrete is invalid due to being solely lowercased.
+chisel -> dirt uses a Prefix as full OreDict Name, and is therefor invalid.
+chisel -> holystone is invalid due to being solely lowercased.
+chisel -> lavastone is invalid due to being solely lowercased.
+chisel -> fantasy is invalid due to being solely lowercased.
+chisel -> carpet is invalid due to being solely lowercased.
+chisel -> tyrian is invalid due to being solely lowercased.
+chisel -> cloud is invalid due to being solely lowercased.
+chisel -> stainedGlassWhite
+chisel -> stainedGlassOrange
+chisel -> stainedGlassMagenta
+chisel -> stainedGlassLightBlue
+chisel -> stainedGlassYellow
+chisel -> stainedGlassLime
+chisel -> stainedGlassPink
+chisel -> stainedGlassGray
+chisel -> stainedGlassLightGray
+chisel -> stainedGlassCyan
+chisel -> stainedGlassPurple
+chisel -> stainedGlassBlue
+chisel -> stainedGlassBrown
+chisel -> stainedGlassGreen
+chisel -> stainedGlassRed
+chisel -> stainedGlassBlack
+chisel -> stainedGlassPaneWhite
+chisel -> stainedGlassPaneOrange
+chisel -> stainedGlassPaneMagenta
+chisel -> stainedGlassPaneLightBlue
+chisel -> stainedGlassPaneYellow
+chisel -> stainedGlassPaneLime
+chisel -> stainedGlassPanePink
+chisel -> stainedGlassPaneGray
+chisel -> stainedGlassPaneLightGray
+chisel -> stainedGlassPaneCyan
+chisel -> stainedGlassPanePurple
+chisel -> stainedGlassPaneBlue
+chisel -> stainedGlassPaneBrown
+chisel -> stainedGlassPaneGreen
+chisel -> stainedGlassPaneRed
+chisel -> stainedGlassPaneBlack
+chisel -> blockWaterstone is getting ignored via hardcode.
+chisel -> fantasy2 is invalid due to being solely lowercased.
 Railcraft -> nuggetIron
 Railcraft -> nuggetSteel
 Railcraft -> ingotSteel
@@ -11050,7 +11050,6 @@ chisel -> stainedClayRed
 chisel -> blockWoolRed
 chisel -> stainedClayBlack
 chisel -> blockWoolBlack
-IronChest -> chestWood
 ProjRed|Core -> projredIllumar
 ProjRed|Core -> projredIllumar
 ProjRed|Core -> projredIllumar
@@ -11139,6 +11138,7 @@ gregtech -> paperResearch
 gregtech -> bookThaumonomicon
 GT_Mod: Load-Phase finished!
 appliedenergistics2 --Late--> itemWheat
+JABBA --Late--> chestWood
 JABBA --Late--> obsidian uses a Prefix as full OreDict Name, and is therefor invalid.
 JABBA --Late--> whiteStone is getting ignored via hardcode.
 JABBA --Late--> transdimBlock is getting ignored via hardcode.
