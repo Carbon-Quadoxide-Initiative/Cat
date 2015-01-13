@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 clouds:false
-resourcePacks:[]
+resourcePacks:["Unity-JABBA-0.9.0.zip","pgtat_v1_23.zip","Unity-Minecraft-1.0.0.zip","Learn Gregtech Companion.zip"]
 lastServer:
 lang:en_US
 chatVisibility:0
@@ -94,11 +94,6 @@ key_Boost Key:29
 key_Mode Switch Key:50
 key_Side Inventory Key:46
 key_Hub Expand Key:45
-key_key.open_menu:19
-key_minetunes.keys.menu:199
-key_minetunes.keys.playpause:207
-key_minetunes.keys.plus:209
-key_minetunes.keys.minus:201
 key_keys.adventureBackpack.openBackpackInventory:48
 key_keys.adventureBackpack.switchHoseTank:49
 key_Baubles Inventory:48

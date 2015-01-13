@@ -3,7 +3,7 @@
     {
         "title":
         {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
+            "image" : "custommainmenu:textures/gui/cat.png",
             "posX" : -200,
             "posY" : 20,
             "width" : 400,
