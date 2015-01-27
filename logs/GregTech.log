@@ -51,7 +51,7 @@ GT_Mod: Adding Blocks to the Miners Valuable List.
 GT_Mod: Adding non-OreDict Machine Recipes.
 GT_Mod: (re-)adding Scrapbox Drops.
 GT_Mod: Register Crops to IC2.
-GT_Mod: Created a List of Tool Recipes containing 109 Recipes for recycling.
+GT_Mod: Created a List of Tool Recipes containing 104 Recipes for recycling.
 GT_Mod: Activating OreDictionary Handler, this can take some time, as it scans the whole OreDictionary
 GT_Mod: 30 Recipes were left unused.
 GT_Mod: Adding nerfed Vanilla Recipes.
@@ -79,7 +79,6 @@ GT_Mod: Registering MetaTileEntity specific Textures
 GT_Mod: Registering Crop specific Textures
 GT_Mod: Starting Block Icon Load Phase
 GT_Mod: Finished Block Icon Load Phase
-GT_Mod: Re-Unificating Recipes.
 GT_Mod: ServerStarting-Phase started!
 GT_Mod: Unificating outputs of all known Recipe Types.
 GT_Mod: IC2 Machines
@@ -970,6 +969,7 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  1x circuitMaster
  1x circuitPrimitive
  1x circuitUltimate
+ 1x clay
  1x cloud
  1x clusterCinnabar
  1x clusterCopper
@@ -978,7 +978,7 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  1x clusterLead
  1x clusterSilver
  1x clusterTin
- 2x cobblestone
+21x cobblestone
  1x concrete
  1x coralBlueStaghorn
  1x coralElegance
@@ -5679,25 +5679,26 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  1x oreAdamantium
  1x oreAlmandine
  1x oreAluminium
- 1x oreAlunite
+ 2x oreAlunite
  2x oreAmber
  1x oreAmericium
  1x oreAmethyst
  1x oreAndradite
+ 1x oreAnthracite
  1x oreAntimony
  3x oreAnyCopper
  3x oreAnyIron
- 3x oreApatite
+ 4x oreApatite
  1x oreArsenic
  1x oreAsbestos
  1x oreAstralSilver
- 1x oreBandedIron
- 1x oreBarite
+ 2x oreBandedIron
+ 2x oreBarite
  1x oreBarium
- 1x oreBasalticMineralSand
- 1x oreBastnasite
- 1x oreBauxite
- 1x oreBentonite
+ 2x oreBasalticMineralSand
+ 2x oreBastnasite
+ 2x oreBauxite
+ 2x oreBentonite
  1x oreBeryllium
  1x oreBismuth
  1x oreBlackgraniteAdamant
@@ -5913,25 +5914,25 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  1x oreBlackgraniteZeolite
  1x oreBlackgraniteZinc
  1x oreBlueTopaz
- 1x oreBorax
+ 2x oreBorax
  1x oreBoron
- 1x oreBrownLimonite
+ 2x oreBrownLimonite
  1x oreCadmium
  1x oreCaesium
  1x oreCalcite
- 1x oreCassiterite
- 1x oreCassiteriteSand
- 1x oreCelestine
+ 2x oreCassiterite
+ 2x oreCassiteriteSand
+ 2x oreCelestine
  1x oreCerium
  3x oreCertusQuartz
- 1x oreChalcopyrite
+ 2x oreChalcopyrite
  1x oreChargedCertusQuartz
  1x oreCheese
  1x oreChrome
- 1x oreChromite
- 1x oreChrysotile
- 2x oreCinnabar
- 2x oreCoal
+ 2x oreChromite
+ 2x oreChrysotile
+ 3x oreCinnabar
+ 3x oreCoal
  1x oreCobalt
  1x oreCobaltite
  1x oreCooperite
@@ -5939,13 +5940,13 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  1x oreDarkIron
  1x oreDeepIron
  1x oreDesh
- 2x oreDiamond
- 1x oreDiatomite
+ 3x oreDiamond
+ 2x oreDiatomite
  1x oreDilithium
- 1x oreDolomite
+ 2x oreDolomite
  1x oreDysprosium
  1x oreElectrum
- 2x oreEmerald
+ 3x oreEmerald
  1x oreEmery
  1x oreEndstoneAdamant
  1x oreEndstoneAdamantine
@@ -6163,30 +6164,31 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  1x oreEuropium
  1x oreFZDarkIron
  1x oreFirestone
+ 1x oreFluorite
  1x oreFoolsRuby
  1x oreForce
  1x oreForcicium
  1x oreForcillium
- 1x oreFullersEarth
+ 2x oreFullersEarth
  1x oreFzDarkIron
  1x oreGadolinium
- 1x oreGalena
+ 2x oreGalena
  1x oreGallium
  1x oreGarnet
  1x oreGarnetRed
- 1x oreGarnetSand
+ 2x oreGarnetSand
  1x oreGarnetYellow
- 1x oreGarnierite
- 1x oreGlauconite
+ 2x oreGarnierite
+ 2x oreGlauconite
  1x oreGlauconiteSand
- 2x oreGold
- 1x oreGraniticMineralSand
- 1x oreGraphite
+ 3x oreGold
+ 2x oreGraniticMineralSand
+ 2x oreGraphite
  1x oreGreenSapphire
  1x oreGrossular
- 2x oreGypsum
+ 3x oreGypsum
  1x oreHolmium
- 1x oreIlmenite
+ 2x oreIlmenite
  1x oreIndium
  2x oreInfusedAir
  2x oreInfusedEarth
@@ -6199,28 +6201,28 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  2x oreIron
  1x oreJade
  1x oreJasper
- 1x oreKaolinite
- 1x oreKyanite
+ 2x oreKaolinite
+ 2x oreKyanite
  1x oreLanthanum
- 2x oreLapis
+ 3x oreLapis
  1x oreLazurite
  2x oreLead
- 1x oreLepidolite
- 1x oreLignite
+ 2x oreLepidolite
+ 2x oreLignite
  1x oreLimestone
  1x oreLithium
  1x oreLutetium
- 1x oreMagnesite
+ 2x oreMagnesite
  1x oreMagnesium
- 1x oreMagnetite
+ 2x oreMagnetite
  1x oreMalachite
  1x oreManganese
  1x oreMeteoricIron
- 1x oreMica
+ 2x oreMica
  1x oreMidasium
- 1x oreMirabilite
+ 2x oreMirabilite
  1x oreMithril
- 1x oreMolybdenite
+ 2x oreMolybdenite
  1x oreMolybdenum
  1x oreMonazite
  1x oreNaquadah
@@ -6445,35 +6447,37 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  1x oreNikolite
  1x oreNiobium
  1x oreNiter
+ 1x oreOilShale
  1x oreOilsands
  1x oreOlivine
  1x oreOpal
  1x oreOsmium
  1x orePalladium
- 1x orePentlandite
+ 2x orePentlandite
  1x orePeridot
- 1x orePerlite
+ 2x orePerlite
  1x orePhosphate
  1x orePhosphor
  1x orePhosphorite
  1x orePhosphorus
  1x orePigIron
- 1x orePitchblende
+ 2x orePitchblende
  1x orePlatinum
  1x orePlutonium
  1x orePlutonium241
- 1x orePollucite
+ 2x orePollucite
  1x orePotassiumFeldspar
  1x orePowellite
  1x orePraseodymium
  1x orePromethium
- 1x orePumice
- 1x orePyrite
- 1x orePyrolusite
+ 2x orePumice
+ 2x orePyrite
+ 2x orePyrolusite
  1x orePyrope
- 1x oreQuartz
- 1x oreQuartzSand
+ 2x oreQuartz
+ 2x oreQuartzSand
  1x oreQuartzite
+ 1x oreRealgar
  1x oreRedgraniteAdamant
  1x oreRedgraniteAdamantine
  1x oreRedgraniteAdamantium
@@ -6686,8 +6690,8 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  1x oreRedgraniteYttrium
  1x oreRedgraniteZeolite
  1x oreRedgraniteZinc
- 2x oreRedstone
- 1x oreRockSalt
+ 3x oreRedstone
+ 2x oreRockSalt
  1x oreRubidium
  1x oreRuby
  1x oreSalt
@@ -6695,20 +6699,20 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  1x oreSamarium
  1x oreSapphire
  1x oreScandium
- 1x oreScheelite
+ 2x oreScheelite
  1x oreShadowIron
  1x oreSilicon
  1x oreSilver
- 1x oreSoapstone
+ 2x oreSoapstone
  1x oreSodalite
  1x oreSpessartine
- 1x oreSphalerite
- 1x oreSpodumene
- 1x oreStibnite
+ 2x oreSphalerite
+ 2x oreSpodumene
+ 2x oreStibnite
  1x oreStrontium
  1x oreSulfur
  1x oreTalc
- 1x oreTantalite
+ 2x oreTantalite
  1x oreTantalum
  1x oreTanzanite
  1x oreTellurium
@@ -6719,23 +6723,25 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  3x oreTin
  1x oreTitanium
  1x oreTopaz
- 1x oreTrona
- 1x oreTungstate
+ 2x oreTrona
+ 2x oreTungstate
  1x oreTungsten
  1x oreUraninite
  2x oreUranium
  1x oreUranium235
  1x oreUvarovite
  1x oreVanadium
- 1x oreVanadiumMagnetite
- 1x oreVermiculite
+ 2x oreVanadiumMagnetite
+ 2x oreVermiculite
  1x oreVinteum
- 1x oreWollastonite
+ 1x oreVolcanicAsh
+ 1x oreWolframite
+ 2x oreWollastonite
  1x oreWulfenite
- 1x oreYellowLimonite
+ 2x oreYellowLimonite
  1x oreYtterbium
  1x oreYttrium
- 1x oreZeolite
+ 2x oreZeolite
  1x oreZinc
  2x paneGlass
  1x paneGlassBlack
@@ -8034,6 +8040,7 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  1x roundYttrium
  1x roundYttriumBariumCuprate
  1x roundZinc
+ 5x rubble
  1x sand
  1x sandstone
  1x saplingTree
@@ -8269,12 +8276,12 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  1x shrubWinterberry
  1x shrubWolfWillow
  1x slabBricks
- 1x slabCobblestone
+ 7x slabCobblestone
  1x slabNetherBrick
  1x slabQuartz
  1x slabSandstone
- 1x slabStone
- 1x slabStoneBricks
+ 7x slabStone
+ 7x slabStoneBricks
  7x slabWood
  1x slabWoodAcacia
  1x slabWoodBirch
@@ -8595,6 +8602,8 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  1x stainedGlassRed
  1x stainedGlassWhite
  1x stainedGlassYellow
+ 3x stairCobblestone
+ 3x stairStoneBricks
 20x stairWood
  1x stairsBambooAsper
  1x stairsBambooFargesiaRobusta
@@ -8973,11 +8982,11 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  1x stickYttrium
  1x stickYttriumBariumCuprate
  1x stickZinc
- 1x stone
+25x stone
  2x stoneBasalt
- 1x stoneBricks
+22x stoneBricks
  1x stoneChiseled
- 2x stoneCobble
+21x stoneCobble
 16x stoneConcrete
  1x stoneCracked
  1x stoneEndstone
@@ -8989,7 +8998,7 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  1x stoneNetherrack
  3x stoneObsidian
  1x stoneSand
- 1x stoneSmooth
+25x stoneSmooth
  1x toolHeadArrowAdamant
  1x toolHeadArrowAdamantine
  1x toolHeadArrowAdamantium
@@ -10828,6 +10837,8 @@ Printing List of all registered Objects inside the OreDictionary, now with free 
  1x wallBracketWoodJungle
  1x wallBracketWoodOak
  1x wallBracketWoodSpruce
+ 3x wallCobblestone
+ 3x wallStoneBricks
  1x waterBambooCoralYEL
  1x waterCryptWendtii
  1x waterDwarfHairGrass
