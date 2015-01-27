@@ -159,9 +159,6 @@ Thaumcraft -> logWood
 Thaumcraft -> logWood
 Thaumcraft -> plankWood
 Thaumcraft -> plankWood
-appliedenergistics2 -> oreCertusQuartz
-appliedenergistics2 -> oreCertusQuartz
-betterstorage -> sheetCardboard
 IC2 -> turningBlankIronHandle
 IC2 -> turningBlankIronDrill
 IC2 -> oreCopper
@@ -310,6 +307,9 @@ Forestry -> slabWood
 Forestry -> fenceWood
 Forestry -> treeLeaves
 Forestry -> treeSapling
+appliedenergistics2 -> oreCertusQuartz
+appliedenergistics2 -> oreCertusQuartz
+betterstorage -> sheetCardboard
 chisel -> marble is invalid due to being solely lowercased.
 chisel -> blockMarble
 chisel -> limestone is invalid due to being solely lowercased.
@@ -11008,6 +11008,32 @@ AgriCraft -> listAllseed
 AgriCraft -> listAllseed
 AgriCraft -> listAllseed
 AgriCraft -> listAllseed
+dendrology -> logWood
+dendrology -> logWood
+dendrology -> logWood
+dendrology -> logWood
+dendrology -> plankWood
+dendrology -> slabWood
+dendrology -> slabWood
+dendrology -> stairWood
+dendrology -> stairWood
+dendrology -> stairWood
+dendrology -> stairWood
+dendrology -> stairWood
+dendrology -> stairWood
+dendrology -> stairWood
+dendrology -> stairWood
+dendrology -> stairWood
+dendrology -> stairWood
+dendrology -> stairWood
+dendrology -> stairWood
+dendrology -> stairWood
+dendrology -> treeSapling
+dendrology -> treeSapling
+dendrology -> treeLeaves
+dendrology -> treeLeaves
+dendrology -> treeLeaves
+dendrology -> treeLeaves
 gregtech -> craftingQuartz
 gregtech -> gemFluix
 appliedenergistics2 -> crystalFluix
@@ -11178,3 +11204,9 @@ JABBA --Late--> whiteStone is getting ignored via hardcode.
 JABBA --Late--> transdimBlock is getting ignored via hardcode.
 GT_Mod: Beginning PostLoad-Phase.
 GT_Mod: PostLoad-Phase finished!
+GT_Mod: ServerStarting-Phase started!
+GT_Mod: ServerStarting-Phase finished!
+GT_Mod: ServerStarting-Phase started!
+GT_Mod: ServerStarting-Phase finished!
+GT_Mod: ServerStarting-Phase started!
+GT_Mod: ServerStarting-Phase finished!

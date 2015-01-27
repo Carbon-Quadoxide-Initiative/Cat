@@ -13,6 +13,10 @@ adventurebackpack,Adventure Backpack,0.1,false,RESTART,[]
 Baubles,Baubles,1.0.1.8,false,DEPENDENCIES,"[Forge@[10.13.0.1177,)]"
 Thaumcraft,Thaumcraft,4.2.1.4,false,DEPENDENCIES,"[Forge@[10.13.1.1224,), Baubles@[1.0.1.8,)]"
 AgriCraft,AgriCraft,1.7.10-1.1.1,false,RESTART,[]
+IC2,IndustrialCraft 2,2.2.660-experimental,false,DEPENDENCIES,"[Forge@[10.13.0.1200,)]"
+Forestry,Forestry for Minecraft,3.3.0.6,false,DEPENDENCIES,"[Forge@[10.13.0.1207,), Buildcraft|Core@[6.1.7,), ExtrabiomesXL, BiomesOPlenty, IC2@[2.0.140,)]"
+koresample,Kore Sample,1.7.10-1.2.2,false,DEPENDENCIES,[]
+dendrology,Ancient Trees,1.7.10-1.2.2,false,RESTART,"[Forge, koresample@[1.7.10-1.2.2,1.7.10-2.0.0), Forestry, minechem]"
 antiqueatlas,Antique Atlas,4.0.1a-1.7.10,false,RESTART,[]
 AppleCore,AppleCore,1.0.1,false,RESTART,[]
 appliedenergistics2,Applied Energistics 2,rv2-beta-7,false,DEPENDENCIES,"[appliedenergistics2-core, Forge@[10.13.2.1230,)]"
@@ -21,14 +25,13 @@ BetterFoliage,Better Foliage,1.0.3,false,RESTART,[]
 betterstorage,BetterStorage,0.11.2.122,false,RESTART,"[Forge, Thaumcraft, NotEnoughItems]"
 BetterTitleScreen,Better Title Screen,1.7.10-1.1,false,RESTART,"[Forge@[10.12.2.1147,)]"
 BiblioCraft,BiblioCraft,1.9.1,false,RESTART,[]
-IC2,IndustrialCraft 2,2.2.660-experimental,false,DEPENDENCIES,"[Forge@[10.13.0.1200,)]"
-Forestry,Forestry for Minecraft,3.3.0.6,false,DEPENDENCIES,"[Forge@[10.13.0.1207,), Buildcraft|Core@[6.1.7,), ExtrabiomesXL, BiomesOPlenty, IC2@[2.0.140,)]"
 BiblioWoodsForestry,BiblioWoods Forestry Edition,1.7,false,RESTART,"[BiblioCraft, Forestry]"
 bigtrees,The BigTrees Mod,1.7.2b,false,RESTART,[]
 CarpentersBlocks,Carpenter's Blocks,3.3.3,false,RESTART,"[Forge@[10.13.0.1180,)]"
 ForgeMultipart,Forge Multipart,1.1.0.314,false,DEPENDENCIES,[]
 chisel,Chisel,2.2.1,false,RESTART,"[ForgeMultipart, Thaumcraft]"
 CustomMainMenu,Custom Main Menu,1.0,false,RESTART,[]
+D3Core,D3Core,1.1.0.19,false,DEPENDENCIES,[]
 menagerie,menagerie,1.0,false,RESTART,[]
 EnetBridge,EnetBridge,1.4,false,RESTART,"[Forge@[10.13.0.1152,), IC2@[2.2.593,), CoFHAPI|energy, BuildCraftAPI|core, factorization]"
 Waila,Waila,1.5.6a,false,DEPENDENCIES,[NotEnoughItems]
@@ -37,6 +40,7 @@ FastCraft,FastCraft,1.12,false,RESTART,[]
 fastleafdecay,Fast Leaf Decay,1.0,false,RESTART,[]
 fognerf,Fog Nerf,1.7.10-0.3,false,RESTART,[]
 gendustry,GenDustry,1.4.3.47,false,RESTART,"[Forestry@[3.0.0.0,), BuildCraft|energy, BuildCraft|Silicon, IC2, CoFHCore, BinnieCore, ExtraBees, ExtraTrees, MineFactoryReloaded, MagicBees, bdlib@[1.5.1.32,)]"
+GreenThumb,GreenThumb,1.1.0.8,false,RESTART,[D3Core]
 Railcraft,Railcraft,9.4.0.0,false,RESTART,"[Forge@[10.13.0.1199,), BuildCraft|Core[6.1.7,), BuildCraft|Energy, BuildCraft|Builders, BuildCraft|Factory, BuildCraftAPI|statements[1.0,), BuildCraftAPI|transport[1.0,), Forestry[3,), Thaumcraft, IC2@[2.2,)]"
 gregtech,GregTech,MC1710,false,RESTART,"[IC2, Forestry, PFAAGeologica, Thaumcraft, Railcraft, appliedenergistics2, ThermalExpansion, TwilightForest, harvestcraft, magicalcrops, BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Factory, BuildCraft|Energy, BuildCraft|Core, BuildCraft|Builders, GalacticraftCore, GalacticraftMars, GalacticraftPlanets, ThermalExpansion|Transport, ThermalExpansion|Energy, ThermalExpansion|Factory, RedPowerCore, RedPowerBase, RedPowerMachine, RedPowerCompat, RedPowerWiring, RedPowerLogic, RedPowerLighting, RedPowerWorld, RedPowerControl]"
 Growthcraft,Growthcraft,2.1.0a,false,DEPENDENCIES,[]
@@ -83,6 +87,7 @@ Sampler,Sampling Performance Profiler,1.15,false,RESTART,[]
 SmartMoving,Smart Moving,15.2,false,RESTART,[]
 SmartRender,Smart Render,2.0,false,RESTART,[]
 supercraftingframe,Super Crafting Frame,1.7.10.1,false,RESTART,[]
+tcnodetracker,TC Node Tracker,@VERSION@,false,RESTART,"[Forge@[10.12.1.1112,), Thaumcraft]"
 ThaumcraftMobAspects,Thaumcraft Mob Aspects,1.7.2-2A,false,RESTART,"[Forge@[10.12.2.1121,), Thaumcraft@[4.1.1,)]"
 thaumcraftneiplugin,Thaumcraft NEI Plugin,1.7.10-1.6a,false,RESTART,[Thaumcraft]
 thaumicnei,Thaumic NEI,1.7.10-0.1.0,false,RESTART,"[NotEnoughItems, Thaumcraft]"
