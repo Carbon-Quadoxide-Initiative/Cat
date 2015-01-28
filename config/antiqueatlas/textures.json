@@ -10,6 +10,7 @@
   "9": "BEACH",
   "10": "FROZEN_WATER",
   "11": "FROZEN_WATER",
+  "193": "FOREST",
   "12": "SNOW",
   "13": "MOUNTAINS",
   "14": "MUSHROOM",
@@ -22,5 +23,13 @@
   "20": "MOUNTAINS",
   "22": "JUNGLE_HILLS",
   "-3": "HOUSE",
-  "-2": "FENCE"
+  "-2": "FENCE",
+  "42": "FOREST",
+  "43": "FOREST",
+  "47": "PLAINS",
+  "44": "MOUNTAINS",
+  "51": "FOREST",
+  "55": "SAND",
+  "52": "FOREST",
+  "59": "HILLS"
 }

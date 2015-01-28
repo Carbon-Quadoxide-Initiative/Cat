@@ -94,8 +94,8 @@ key_Boost Key:29
 key_Mode Switch Key:50
 key_Side Inventory Key:46
 key_Hub Expand Key:45
-key_keys.adventureBackpack.openBackpackInventory:48
-key_keys.adventureBackpack.switchHoseTank:49
+key_keys.adventureBackpack.openBackpackInventory:21
+key_keys.adventureBackpack.switchHoseTank:22
 key_Baubles Inventory:48
 key_Change Wand Focus:33
 key_Activate Hover Harness:35

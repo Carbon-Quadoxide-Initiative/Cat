@@ -463,6 +463,7 @@ gregtech -> craftingElectricFurnace
 gregtech -> craftingGenerator
 gregtech -> craftingGeothermalGenerator
 gregtech -> craftingFeather
+gregtech -> craftingFeather
 gregtech -> itemWheat
 gregtech -> paperEmpty
 gregtech -> paperMap
@@ -9808,6 +9809,10 @@ gregtech -> oreNetherrackGlauconiteSand
 gregtech -> oreEndstoneGlauconiteSand
 gregtech -> oreBlackgraniteGlauconiteSand
 gregtech -> oreRedgraniteGlauconiteSand
+gregtech -> ingotFierySteel
+gregtech -> ingotKnightmetal
+gregtech -> ingotSteeleaf
+gregtech -> ingotIronWood
 gregtech -> nuggetMercury
 gregtech -> gemMercury
 gregtech -> plateIron
@@ -10340,11 +10345,6 @@ Growthcraft|Bamboo -> cropBambooshoot
 Growthcraft|Bamboo -> listAllveggie
 Growthcraft|Bamboo -> cropBambooshoot
 Growthcraft|Bamboo -> listAllveggie
-Growthcraft|Bees -> beeQueen
-Growthcraft|Bees -> materialWaxcomb
-Growthcraft|Bees -> materialHoneycomb
-Growthcraft|Bees -> honeyDrop is getting ignored via hardcode.
-Growthcraft|Bees -> dropHoney
 Growthcraft|Grapes -> cropGrapes
 Growthcraft|Grapes -> foodGrapes
 Growthcraft|Grapes -> seedGrapes
@@ -10968,40 +10968,6 @@ chisel -> stainedClayRed
 chisel -> blockWoolRed
 chisel -> stainedClayBlack
 chisel -> blockWoolBlack
-gendustry -> beeComb
-gendustry -> dropHoney
-gregtech -> dye
-gendustry -> dyeBlack
-gregtech -> dye
-gendustry -> dyeRed
-gregtech -> dye
-gendustry -> dyeGreen
-gregtech -> dye
-gendustry -> dyeBrown
-gregtech -> dye
-gendustry -> dyeBlue
-gregtech -> dye
-gendustry -> dyePurple
-gregtech -> dye
-gendustry -> dyeCyan
-gregtech -> dye
-gendustry -> dyeLightGray
-gregtech -> dye
-gendustry -> dyeGray
-gregtech -> dye
-gendustry -> dyePink
-gregtech -> dye
-gendustry -> dyeLime
-gregtech -> dye
-gendustry -> dyeYellow
-gregtech -> dye
-gendustry -> dyeLightBlue
-gregtech -> dye
-gendustry -> dyeMagenta
-gregtech -> dye
-gendustry -> dyeOrange
-gregtech -> dye
-gendustry -> dyeWhite
 gregtech -> stoneSmooth
 gregtech -> stoneSmooth
 gregtech -> stoneSmooth
@@ -11173,6 +11139,12 @@ PFAAGeologica -> oreDiamond
 PFAAGeologica -> oreEmerald
 PFAAGeologica -> oreRedstone
 PFAAGeologica -> stoneBricks
+TwilightForest -> logWood
+TwilightForest -> logWood
+TwilightForest -> treeSapling
+TwilightForest -> treeLeaves
+TwilightForest -> treeLeaves
+TwilightForest -> plankWood
 ProjRed|Core -> projredIllumar
 ProjRed|Core -> projredIllumar
 ProjRed|Core -> projredIllumar
@@ -11245,11 +11217,10 @@ gregtech -> stoneObsidian
 gregtech -> paperResearch
 gregtech -> bookThaumonomicon
 GT_Mod: Load-Phase finished!
-JABBA --Late--> chestWood
-JABBA --Late--> obsidian uses a Prefix as full OreDict Name, and is therefor invalid.
-JABBA --Late--> whiteStone is getting ignored via hardcode.
-JABBA --Late--> transdimBlock is getting ignored via hardcode.
 GT_Mod: Beginning PostLoad-Phase.
 GT_Mod: PostLoad-Phase finished!
+MineTweaker3 --Late--> certusQuartzPure
+MineTweaker3 --Late--> certusQuartzPure
+MineTweaker3 --Late--> certusQuartzPure
 GT_Mod: ServerStarting-Phase started!
 GT_Mod: ServerStarting-Phase finished!
