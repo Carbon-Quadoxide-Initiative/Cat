@@ -10,10 +10,6 @@ import mods.gregtech.Wiremill;
 <ore:certusQuartzPure>.add(<appliedenergistics2:item.ItemMultiMaterial:10>);
 <ore:certusQuartzPure>.add(<gregtech:gt.metaitem.01:8516>);
 
-//WARNING!!!
-//Remove this line if you don't have RotaryCraft installed!
-<ore:certusQuartzPure>.add(<RotaryCraft:rotarycraft_item_modingots:9>);
-
  
 val quartzglass = <ore:plateGlass>;
  
