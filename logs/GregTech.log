@@ -88,6 +88,22 @@ GT_Mod: Smelting
 GT_Mod: Crafting Recipes
 GT_Mod: ServerStarting-Phase finished!
 GT_Mod: Cleaning up all OreDict Crafting Recipes, which have an empty List in them, since they are never meeting any Condition.
+java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextNode(Unknown Source)
+	at java.util.HashMap$EntryIterator.next(Unknown Source)
+	at java.util.HashMap$EntryIterator.next(Unknown Source)
+	at java.util.Hashtable.putAll(Unknown Source)
+	at cpw.mods.fml.common.registry.LanguageRegistry.injectLanguage(LanguageRegistry.java:250)
+	at gregtech.api.util.GT_LanguageManager.addStringLocalization(GT_LanguageManager.java:29)
+	at gregtech.common.blocks.GT_Item_Machines.func_77624_a(GT_Item_Machines.java:48)
+	at net.minecraft.item.ItemStack.func_82840_a(ItemStack.java:525)
+	at codechicken.nei.guihook.GuiContainerManager.itemDisplayNameMultiline(GuiContainerManager.java:119)
+	at codechicken.nei.guihook.GuiContainerManager.concatenatedDisplayName(GuiContainerManager.java:162)
+	at codechicken.nei.api.ItemInfo.getSearchName(ItemInfo.java:514)
+	at mcp.mobius.waila.handlers.nei.ModNameFilter$Filter.matches(ModNameFilter.java:91)
+	at codechicken.nei.ItemList$AllMultiItemFilter.matches(ItemList.java:85)
+	at codechicken.nei.ItemList$2.execute(ItemList.java:236)
+	at codechicken.nei.RestartableTask$1.run(RestartableTask.java:24)
 *
 Printing List of all registered Objects inside the OreDictionary, now with free extra Sorting:
 *

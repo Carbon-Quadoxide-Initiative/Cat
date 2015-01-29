@@ -1034,7 +1034,7 @@ move.config.adventure.keys.default:m
 
 
 # The display names of the option configuration keys
-move.config.key.name:e:Easy;m:Medium;h:Hard
+move.config.key.name:e:Easy;h:Hard;m:Medium
 
 
 

@@ -1,4 +1,5 @@
 //Created by digger6
+//Walrus added by mr10movie
 
 //Deletion of recipes
 //CELLS
@@ -7,6 +8,7 @@ recipes.remove(<extracells:storage.component:*>);
 recipes.remove(<extracells:storage.physical:*>);
 recipes.remove(<extracells:storage.casing:*>);
 recipes.remove(<extracells:storage.fluid:*>);
+recipes.remove(<extracells:walrus>);
 
 
 //Addition of recipes
@@ -141,27 +143,27 @@ recipes.addShaped(<extracells:storage.component:3>,
 
 //1k ME Fluid
 recipes.addShaped(<extracells:storage.component:4>,
- [[<ore:plateBlueAlloy>, <ore:certusQuartzPure>, <ore:plateBlueAlloy>],
+ [[<ore:plateAluminium>, <ore:certusQuartzPure>, <ore:plateAluminium>],
   [<ore:certusQuartzPure>, <appliedenergistics2:item.ItemMultiMaterial:22>, <ore:certusQuartzPure>],
-  [<ore:plateBlueAlloy>, <ore:certusQuartzPure>, <ore:plateBlueAlloy>]]);
+  [<ore:plateAluminium>, <ore:certusQuartzPure>, <ore:plateAluminium>]]);
 
 //4k ME Fluid
 recipes.addShaped(<extracells:storage.component:5>,
- [[<ore:plateBlueAlloy>, <appliedenergistics2:item.ItemMultiMaterial:23>, <ore:plateBlueAlloy>],
+ [[<ore:plateAluminium>, <appliedenergistics2:item.ItemMultiMaterial:23>, <ore:plateAluminium>],
   [<extracells:storage.component:4>, <appliedenergistics2:tile.BlockQuartzGlass>, <extracells:storage.component:4>],
-  [<ore:plateBlueAlloy>, <extracells:storage.component:4>, <ore:plateBlueAlloy>]]);
+  [<ore:plateAluminium>, <extracells:storage.component:4>, <ore:plateAluminium>]]);
 
 //16k ME Fluid
 recipes.addShaped(<extracells:storage.component:6>,
- [[<ore:plateBlueAlloy>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateBlueAlloy>],
+ [[<ore:plateAluminium>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateAluminium>],
   [<extracells:storage.component:5>, <appliedenergistics2:tile.BlockQuartzGlass>, <extracells:storage.component:5>],
-  [<ore:plateBlueAlloy>, <extracells:storage.component:5>, <ore:plateBlueAlloy>]]);
+  [<ore:plateAluminium>, <extracells:storage.component:5>, <ore:plateAluminium>]]);
 
 //64k ME Fluid
 recipes.addShaped(<extracells:storage.component:7>,
- [[<ore:plateBlueAlloy>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateBlueAlloy>],
+ [[<ore:plateAluminium>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateAluminium>],
   [<extracells:storage.component:6>, <appliedenergistics2:tile.BlockQuartzGlass>, <extracells:storage.component:6>],
-  [<ore:plateBlueAlloy>, <extracells:storage.component:6>, <ore:plateBlueAlloy>]]);
+  [<ore:plateAluminium>, <extracells:storage.component:6>, <ore:plateAluminium>]]);
 
 //256k ME Fluid
 recipes.addShaped(<extracells:storage.component:8>,
@@ -180,3 +182,9 @@ recipes.addShaped(<extracells:storage.component:10>,
  [[<ore:plateDiamond>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateDiamond>],
   [<extracells:storage.component:9>, <appliedenergistics2:item.ItemMultiMaterial:22>, <extracells:storage.component:9>],
   [<ore:plateDiamond>, <extracells:storage.component:9>, <ore:plateDiamond>]]);
+
+//Walrus
+recipes.addShaped(<extracells:walrus>,
+ [[<minecraft:fish:*>, <minecraft:fish:*>, <minecraft:fish:*>],
+  [<minecraft:fish:*>, null, <minecraft:fish:*>],
+  [<minecraft:fish:*>, <minecraft:fish:*>, <minecraft:fish:*>]]);
