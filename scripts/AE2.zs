@@ -40,7 +40,7 @@ recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:41>);
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:42>);
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:43>);
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:44>);
-recipes.remove(<appliedenergistics2:item.ToolMassCannon>);
+//recipes.remove(<appliedenergistics2:item.ToolMassCannon>);
 recipes.remove(<appliedenergistics2:item.ToolMemoryCard>);
  
 //WIRES&RELATED
@@ -387,8 +387,8 @@ recipes.addShaped(<appliedenergistics2:tile.BlockController>,
   [<appliedenergistics2:item.ItemMultiMaterial:7>, <appliedenergistics2:item.ItemMultiMaterial:24>, <appliedenergistics2:item.ItemMultiMaterial:7>],
   [<gregtech:gt.blockcasings2>, <appliedenergistics2:item.ItemMultiMaterial:7>, <gregtech:gt.blockcasings2>]]);
  
-//ME Controller
-recipes.addShaped(<appliedenergistics2:item.ToolMassCannon>,
- [[<ore:plateAluminium>, <ore:plateAluminium>, <appliedenergistics2:item.ItemMultiMaterial:43>],
-  [<appliedenergistics2:item.ItemMultiMaterial:36>, <appliedenergistics2:tile.BlockEnergyCell>, null],
-  [<ore:plateAluminium>, null, null]]);
+//ME Mass Cannon
+//recipes.addShaped(<appliedenergistics2:item.ToolMassCannon>,
+// [[<ore:plateAluminium>, <ore:plateAluminium>, <appliedenergistics2:item.ItemMultiMaterial:43>],
+//  [<appliedenergistics2:item.ItemMultiMaterial:36>, <appliedenergistics2:tile.BlockEnergyCell>, null],
+// [<ore:plateAluminium>, null, null]]);

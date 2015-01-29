@@ -1016,7 +1016,7 @@ move.mod.rope.replace.climb.rope:true
 move.config.survival.keys:e,m,h
 
 # The option configuration to start the next minecraft survival game with (can also be modified via in-game option configuration toggling)
-move.config.survival.keys.default:m
+move.config.survival.keys.default:disabled
 
 
 # A list of creative option configuration keys, entries seperated by ','
@@ -1034,7 +1034,7 @@ move.config.adventure.keys.default:m
 
 
 # The display names of the option configuration keys
-move.config.key.name:e:Easy;h:Hard;m:Medium
+move.config.key.name:e:Easy;m:Medium;h:Hard
 
 
 

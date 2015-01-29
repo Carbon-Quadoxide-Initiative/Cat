@@ -5,11 +5,11 @@ gamma:1.0
 saturation:0.0
 renderDistance:10
 guiScale:3
-particles:2
+particles:0
 bobView:false
 anaglyph3d:false
 advancedOpengl:false
-maxFps:60
+maxFps:260
 fboEnable:true
 difficulty:3
 fancyGraphics:true
@@ -25,7 +25,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:true
+enableVsync:false
 hideServerAddress:false
 advancedItemTooltips:false
 pauseOnLostFocus:true
@@ -99,6 +99,7 @@ key_keys.adventureBackpack.switchHoseTank:22
 key_Baubles Inventory:44
 key_Change Wand Focus:33
 key_Activate Hover Harness:35
+key_Misc Wand Toggle:34
 key_key.betterstorage.backpackOpen:48
 key_key.betterstorage.drinkingHelmet:77
 key_waila.keybind.wailaconfig:82
@@ -109,11 +110,11 @@ key_waila.keybind.usage:75
 key_invtweaks.key.sort:19
 key_key.aspectMenu:23
 key_key.betterfoliage.gui:66
-key_key.control:184
 key_railcraft.keybind.loco.faster:52
 key_railcraft.keybind.loco.slower:51
 key_railcraft.keybind.loco.mode:181
 key_railcraft.keybind.loco.whistle:49
+key_key.control:184
 soundCategory_master:0.32119206
 soundCategory_music:0.0
 soundCategory_record:1.0
