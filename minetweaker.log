@@ -1,8 +1,7 @@
 INFO: Adding command minetweaker
 INFO: Adding minetweaker command mfr
-ERROR: AE2.zs:15: Could not resolve <RotaryCraft : rotarycraft_item_modingots : 9>
-ERROR: AE2.zs:47: Could not resolve <appliedenergistics2 : item . ToolMassCannon>
-ERROR: AE2.zs:395: Could not resolve <appliedenergistics2 : item . ToolMassCannon>
+ERROR: AE2.zs:43: Could not resolve <appliedenergistics2 : item . ToolMassCannon>
+ERROR: AE2.zs:391: Could not resolve <appliedenergistics2 : item . ToolMassCannon>
 INFO: Adding Charged Certus Quartz Crystal to ore dictionary entry certusQuartzPure
 INFO: Adding Pure Certus Quartz Crystal to ore dictionary entry certusQuartzPure
 INFO: Adding Certus Quartz to ore dictionary entry certusQuartzPure
@@ -32,7 +31,7 @@ INFO: Removing 1 recipes
 ERROR: Error executing AE2.zs: null
 java.lang.NullPointerException
 	at minetweaker.mc1710.recipes.MCRecipeManager.remove(MCRecipeManager.java:94)
-	at AE2.__script__(AE2.zs:47)
+	at AE2.__script__(AE2.zs:43)
 	at __ZenMain__.run(AE2.zs)
 	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:157)
 	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:624)
@@ -240,36 +239,6 @@ INFO: Removing 1 recipes
 INFO: Adding recipe for Still
 INFO: Removing 1 recipes
 INFO: Adding recipe for Rainmaker
-INFO: Removing 1 recipes
-INFO: Adding recipe for Sturdy Casing
-INFO: Removing Copper Gear from ore dictionary entry gearCopper
-INFO: Removing Bronze Gear from ore dictionary entry gearBronze
-INFO: Removing Tin Gear from ore dictionary entry gearTin
-INFO: Removing 1 recipes
-INFO: Removing 1 recipes
-INFO: Removing 1 recipes
-INFO: Removing 5 recipes
-INFO: Adding recipe for Electrical Engine
-INFO: Adding recipe for Peat-fired Engine
-INFO: Adding recipe for Biogas Engine
-INFO: Adding recipe for Bio Generator
-INFO: Adding recipe for Clockwork Engine
-INFO: Removing 1 recipes
-INFO: Adding recipe for Carpenter
-INFO: Removing 1 recipes
-INFO: Adding recipe for Centrifuge
-INFO: Removing 1 recipes
-INFO: Adding recipe for Squeezer
-INFO: Removing 1 recipes
-INFO: Adding recipe for Still
-INFO: Removing 1 recipes
-INFO: Adding recipe for Thermionic Fabricator
-INFO: Removing 1 recipes
-INFO: Adding recipe for Raintank
-INFO: Removing 1 recipes
-INFO: Adding recipe for Mailbox
-INFO: Removing 1 recipes
-INFO: Adding recipe for Trade Station
 INFO: Removing 1 recipes
 INFO: Adding recipe for Farm Gearbox
 INFO: Adding recipe for Farm Gearbox
