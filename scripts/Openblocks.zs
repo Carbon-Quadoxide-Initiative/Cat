@@ -23,3 +23,14 @@ recipes.addShaped(<OpenBlocks:fan>,
   [[null, <ore:rotorAnyIron>, null],
   [null, <ore:stickAnyIron>, null],
   [null, <ore:plateAnyIron>, null]]);
+
+recipes.remove(<OpenBlocks:tank>);
+recipes.addShaped(<OpenBlocks:tank>,
+  [[<ore:screwSteel>, <ore:blockGlass> , <ore:screwSteel>],
+  [<ore:blockGlass>, <ore:craftingToolScrewdriver>.transformDamage(4), <ore:blockGlass>],
+  [<ore:plateObsidian>, <ore:blockGlass> , <ore:plateObsidian>]]);
+
+recipes.remove(<OpenBlocks:sonicglasses>);
+recipes.addShaped(<OpenBlocks:sonicglasses>,
+  [[<gregtech:gt.metaitem.01:32691>, <minecraft:iron_helmet> , <gregtech:gt.metaitem.01:32681>],
+  [<ore:stoneObsidian>, <ore:stickWood>, <ore:stoneObsidian>]]);

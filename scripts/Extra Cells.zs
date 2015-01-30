@@ -1,5 +1,5 @@
 //Created by digger6
-//Walrus added by mr10movie
+//Walrus + Tank Recipe Changes added by mr10movie
 
 //Deletion of recipes
 //CELLS
@@ -9,6 +9,7 @@ recipes.remove(<extracells:storage.physical:*>);
 recipes.remove(<extracells:storage.casing:*>);
 recipes.remove(<extracells:storage.fluid:*>);
 recipes.remove(<extracells:walrus>);
+recipes.remove(<extracells:certustank>);
 
 
 //Addition of recipes
@@ -188,3 +189,9 @@ recipes.addShaped(<extracells:walrus>,
  [[<minecraft:fish:*>, <minecraft:fish:*>, <minecraft:fish:*>],
   [<minecraft:fish:*>, null, <minecraft:fish:*>],
   [<minecraft:fish:*>, <minecraft:fish:*>, <minecraft:fish:*>]]);
+
+//Certustank
+recipes.addShaped(<extracells:certustank>,
+ [[<ore:screwSteel>, <appliedenergistics2:tile.BlockQuartzGlass>, <ore:screwSteel>],
+  [<appliedenergistics2:tile.BlockQuartzGlass>, <ore:craftingToolScrewdriver>.transformDamage(4), <appliedenergistics2:tile.BlockQuartzGlass>],
+  [<ore:screwSteel>, <appliedenergistics2:tile.BlockQuartzGlass>, <ore:screwSteel>]]);
