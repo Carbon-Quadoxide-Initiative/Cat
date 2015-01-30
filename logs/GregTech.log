@@ -1,13 +1,13 @@
 GT_Mod: Preload-Phase started!
 GT_Mod: Getting required Items of other Mods.
 GT_Mod: Setting Configs
+GT_Mod: Downloading Cape List.
 GT_Mod: Saving Main Config
 GT_Mod: Generating Lang-File
-GT_Mod: Downloading Cape List.
+GT_Mod: Downloading News.
 GT_Mod: Removing all original Scrapbox Drops.
 GT_Mod: Adding Scrap with a Weight of 200.0F to the Scrapbox Drops.
 GT_Mod: Register Ore processing.
-GT_Mod: Downloading News.
 GT_Mod: Register OreDict Entries of Non-GT-Items.
 GT_Mod: Loading Item Data Tags
 GT_Mod: Register Books.
@@ -72,14 +72,13 @@ GT_Mod: Saving Lang File.
 GT_Mod: PostLoad-Phase finished!
 GT_Mod: Adding Fake Recipes for NEI
 GT_Mod: Loading finished, deallocating temporary Init Variables.
+GT_Mod: Starting Item Icon Load Phase
+GT_Mod: Finished Item Icon Load Phase
 GT_Mod: Setting up Icon Register for Blocks
 GT_Mod: Registering MetaTileEntity specific Textures
 GT_Mod: Registering Crop specific Textures
 GT_Mod: Starting Block Icon Load Phase
 GT_Mod: Finished Block Icon Load Phase
-GT_Mod: Starting Item Icon Load Phase
-GT_Mod: Finished Item Icon Load Phase
-GT_Mod: Re-Unificating Recipes.
 GT_Mod: ServerStarting-Phase started!
 GT_Mod: Unificating outputs of all known Recipe Types.
 GT_Mod: IC2 Machines
@@ -88,22 +87,13 @@ GT_Mod: Smelting
 GT_Mod: Crafting Recipes
 GT_Mod: ServerStarting-Phase finished!
 GT_Mod: Cleaning up all OreDict Crafting Recipes, which have an empty List in them, since they are never meeting any Condition.
-java.util.ConcurrentModificationException
-	at java.util.HashMap$HashIterator.nextNode(Unknown Source)
-	at java.util.HashMap$EntryIterator.next(Unknown Source)
-	at java.util.HashMap$EntryIterator.next(Unknown Source)
-	at java.util.Hashtable.putAll(Unknown Source)
-	at cpw.mods.fml.common.registry.LanguageRegistry.injectLanguage(LanguageRegistry.java:250)
-	at gregtech.api.util.GT_LanguageManager.addStringLocalization(GT_LanguageManager.java:29)
-	at gregtech.common.blocks.GT_Item_Machines.func_77624_a(GT_Item_Machines.java:48)
-	at net.minecraft.item.ItemStack.func_82840_a(ItemStack.java:525)
-	at codechicken.nei.guihook.GuiContainerManager.itemDisplayNameMultiline(GuiContainerManager.java:119)
-	at codechicken.nei.guihook.GuiContainerManager.concatenatedDisplayName(GuiContainerManager.java:162)
-	at codechicken.nei.api.ItemInfo.getSearchName(ItemInfo.java:514)
-	at mcp.mobius.waila.handlers.nei.ModNameFilter$Filter.matches(ModNameFilter.java:91)
-	at codechicken.nei.ItemList$AllMultiItemFilter.matches(ItemList.java:85)
-	at codechicken.nei.ItemList$2.execute(ItemList.java:236)
-	at codechicken.nei.RestartableTask$1.run(RestartableTask.java:24)
+GT_Mod: Setting up Icon Register for Blocks
+GT_Mod: Registering MetaTileEntity specific Textures
+GT_Mod: Registering Crop specific Textures
+GT_Mod: Starting Block Icon Load Phase
+GT_Mod: Finished Block Icon Load Phase
+GT_Mod: Starting Item Icon Load Phase
+GT_Mod: Finished Item Icon Load Phase
 *
 Printing List of all registered Objects inside the OreDictionary, now with free extra Sorting:
 *
