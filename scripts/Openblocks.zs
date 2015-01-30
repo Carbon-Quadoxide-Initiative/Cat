@@ -1,3 +1,5 @@
+import mods.nei.NEI;
+NEI.hide(<OpenBlocks:cursor>);
 recipes.remove(<OpenBlocks:cursor>);
 
 recipes.remove(<OpenBlocks:cannon>);

@@ -5,9 +5,6 @@ import mods.gregtech.Wiremill;
 import mods.ic2.Compressor;
  
 //Deletion of recipes
-recipes.remove(<Railcraft:tile.railcraft.machine.beta:7>);
-recipes.remove(<Railcraft:tile.railcraft.machine.beta:8>);
-recipes.remove(<Railcraft:tile.railcraft.machine.beta:9>);
 recipes.remove(<Railcraft:cart.bore>);
 recipes.remove(<Railcraft:borehead.diamond>);
 recipes.remove(<Railcraft:borehead.steel>);
