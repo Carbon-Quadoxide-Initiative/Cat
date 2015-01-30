@@ -96,8 +96,17 @@
             "normalTextColor" : 1,
             "hoverTextColor" : 304638,
             "shadow" : false
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 103,
+            "posY" : -100,
+            "width" : 20,
+            "height" : 20,
+            "alignment" : "bottom_left"
         }
-
     },
     
     "texts":
