@@ -1,1 +1,1 @@
-Default file, please make sure the correct file, SupportedMods.txt, exists in the modpackTweaks config directory before launching next time!
+Most client side tweaks and some content mods are supported. Please refrain from begging for help if you add a mod and the pack breaks.  We reccomend not adding any mod, but if you have a request please ask on the FTB forum thread.
