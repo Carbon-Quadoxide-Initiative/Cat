@@ -135,7 +135,7 @@
         "panorama":
         {
             "images" : "custommainmenu:textures/gui/title/background/panorama%c.png",
-            "blur" : false,
+            "blur" : true,
             "gradient" : false
         }
     }
