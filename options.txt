@@ -12,10 +12,10 @@ advancedOpengl:false
 maxFps:260
 fboEnable:true
 difficulty:3
-fancyGraphics:true
-ao:2
+fancyGraphics:false
+ao:1
 clouds:false
-resourcePacks:["Unity-JABBA-0.9.0.zip","pgtat_v1_23.zip","Unity-Minecraft-1.0.0.zip","Learn Gregtech Companion.zip","Unity-Forestry-0.9.0.zip","Unity-ExtraCells-1.0.0.zip","Zederrian Technology 1.1.1.zip"]
+resourcePacks:["Unity-ExtraCells-1.0.0.zip","Unity-Forestry-0.9.0.zip","Unity-Minecraft-1.0.0.zip","pgtat_v1_23.zip"]
 lastServer:
 lang:en_US
 chatVisibility:0
