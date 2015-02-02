@@ -79,10 +79,10 @@ Settings pertaining to the Minecraft original small trees.
 Settings for forest tree types distribution.
   Old (wide) trees.
     old-tree-enable = true
-    old-tree-percentage = 25%
+    old-tree-percentage = 5%
   Tall narrow trees.
     tall-tree-enable = true
-    tall-tree-percentage = 25%
+    tall-tree-percentage = 5%
   The remaining percent of forest trees will be the classic small ones.
 
   Large birch trees can also generate in forests.
@@ -91,19 +91,19 @@ Settings for forest tree types distribution.
 
 Settings for jungle tree type distribution.
   Great oak and block oaks in the jungle.
-    old-tree-jungle-percentage = 25%
+    old-tree-jungle-percentage = 10%
   The remaining percent of (small) jungle trees will be the classic ones.
 
 Settings for swamp tree type distribution.
   Great big swamp trees.
     old-swamp-tree-enable = true
-    old-swamp-tree-percentage = 20%
+    old-swamp-tree-percentage = 5%
   Conical 'hat' trees.
     hat-tree-enable = true
-    hat-tree-percentage = 20%
+    hat-tree-percentage = 5%
   Cyprus trees.
     cyprus-tree-enable = true
-    cyprus-tree-percentage = 20%
+    cyprus-tree-percentage = 5%
   The remaining percent of swamp trees will be the classic small ones.
 
 Settings for desert tree type distribution.
@@ -118,11 +118,11 @@ Settings for taiga tree type distribution.
   Large pine trees in taiga.
     thick-pine-enable = true
   Region with only thick (big) pines.
-    thick-pine-percentage = 20%
+    thick-pine-percentage = 5%
   Region with thick and classic pines.
-    mixed-pine-percentage = 20%
+    mixed-pine-percentage = 5%
   Region of taiga with NO TREES.
-    no-pine-percentage = 20%
+    no-pine-percentage = 5%
   The remaining percent of pine trees will be the classic small ones.
 
 Other settings.
