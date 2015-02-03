@@ -1,2 +1,9 @@
 mods/fastcraft-1.19.jar
 mods/OptiFine_1.7.10_HD_B5.jar
+TCNodeTracker/
+stats/player.uid
+screenshots/
+saves/
+logs/
+dumps/
+crash-reports/
