@@ -1,5 +1,26 @@
 import mods.nei.NEI;
 
+recipes.remove(<OpenBlocks:generic>);
+recipes.remove(<OpenBlocks:generic:9>);
+recipes.addShaped(<OpenBlocks:generic:9>,
+ [[<gregtech:gt.metaitem.01:32690>, <ore:circuitPrimitive>, <gregtech:gt.metaitem.01:32680>],
+ [<ore:plateSteel>, <ore:plateRedstone>, <ore:plateSteel>],
+ [<gregtech:gt.metaitem.02:21305>, <ore:plateSteel>, <gregtech:gt.metaitem.02:21305>]]);
+
+recipes.remove(<OpenBlocks:generic:6>);
+recipes.addShaped(<OpenBlocks:generic:6>,
+ [[<ore:wireGt01Gold>, <ore:plateRedstone>, <ore:wireGt01Gold>],
+ [<ore:plateRedstone>, <ore:circuitBasic>, <ore:plateRedstone>],
+ [<ore:wireGt01Gold>, <ore:plateRedstone>, <ore:wireGt01Gold>]]);
+
+recipes.remove(<OpenBlocks:generic:7>);
+recipes.addShaped(<OpenBlocks:generic:7>,
+  [[<ore:plateRedstone>, <ore:circuitData>, null],
+ [<ore:plateRedstone>, <ore:circuitData>, null],
+ [<ore:plateRedstone>, <ore:circuitData>, null]]);
+
+ 
+ 
 recipes.remove(<OpenBlocks:cannon>);
 recipes.addShaped(<OpenBlocks:cannon>,
  [[null, <minecraft:dispenser>, null],
@@ -34,3 +55,10 @@ recipes.remove(<OpenBlocks:sonicglasses>);
 recipes.addShaped(<OpenBlocks:sonicglasses>,
   [[<gregtech:gt.metaitem.01:32691>, <minecraft:iron_helmet> , <gregtech:gt.metaitem.01:32681>],
   [<ore:stoneObsidian>, <ore:stickWood>, <ore:stoneObsidian>]]);
+
+  
+recipes.remove(<OpenBlocks:projector>);
+recipes.addShaped(<OpenBlocks:projector>,
+  [[<gregtech:gt.metaitem.01:32681>, null , <gregtech:gt.metaitem.01:32681>],
+  [<ore:stickLongSteel>, <ore:circuitGood>, <ore:stickLongSteel>],
+  [<minecraft:stone_slab>, <minecraft:stone_slab> , <minecraft:stone_slab>]]);
