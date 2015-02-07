@@ -1,7 +1,7 @@
 /* CREDITS
 Main script by DreamMasterXXl
 Minor tweak by SatanicSanta
-Another mintor tweak by Mr10movie
+Another minor tweak by Mr10movie
 */
 import mods.nei.NEI;
 
@@ -52,12 +52,23 @@ recipes.addShaped(<Forestry:factory:6>, [
 [<gregtech:gt.metaitem.02:21300>, <Forestry:sturdyMachine>, <gregtech:gt.metaitem.02:21300>],
 [<extracells:certustank>, <gregtech:gt.metaitem.01:17890>, <extracells:certustank>]]);
 
-
 recipes.remove(<Forestry:factory:7>);
 recipes.addShaped(<Forestry:factory:7>, [
 [<gregtech:gt.metaitem.02:31057>, <gregtech:gt.metaitem.01:32690>, <gregtech:gt.metaitem.02:31057>],
 [<gregtech:gt.metaitem.01:32640>, <Forestry:hardenedMachine>, <gregtech:gt.metaitem.01:32640>],
 [<gregtech:gt.metaitem.02:31057>, <gregtech:gt.metaitem.01:32680>, <gregtech:gt.metaitem.02:31057>]]);
+
+//Gears
+recipes.remove(<Forestry:gearCopper>);
+recipes.remove(<Forestry:gearTin>);
+recipes.remove(<Forestry:gearBronze>);
+NEI.hide(<Forestry:gearCopper>);
+NEI.hide(<Forestry:gearTin>);
+NEI.hide(<Forestry:gearBronze>);
+
+<ore:gearTin>.remove(<Forestry:gearTin>);
+<ore:gearCopper>.remove(<Forestry:gearCopper>);
+<ore:gearBronze>.remove(<Forestry:gearBronze>);
 
 //Removal of Backpacks
 recipes.remove(<Forestry:apiaristBag>);

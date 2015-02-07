@@ -3,7 +3,8 @@
 import mods.gregtech.Assembler;
 import mods.gregtech.Wiremill;
 import mods.ic2.Compressor;
- 
+import mods.nei.NEI;
+
 //Deletion of recipes
 recipes.remove(<Railcraft:cart.bore>);
 recipes.remove(<Railcraft:borehead.diamond>);
@@ -16,9 +17,12 @@ recipes.remove(<Railcraft:cart.track.relayer>);
 recipes.remove(<Railcraft:tile.railcraft.cube>);
 recipes.remove(<Railcraft:tile.railcraft.machine.alpha:8>);
 recipes.remove(<Railcraft:part.gear>);
+recipes.remove(<Railcraft:part.gear:1>);
 recipes.remove(<Railcraft:part.gear:2>);
+recipes.remove(<Railcraft:part.gear:3>);
 recipes.remove(<Railcraft:part.plate:2>);
- 
+NEI.hide(<Railcraft:part.gear:*>);
+
 //Tunnelbore
 recipes.addShaped(<Railcraft:cart.bore>,
  [[<gregtech:gt.blockmachines:3>, <minecraft:minecart>, <gregtech:gt.blockmachines:3>],
@@ -149,6 +153,13 @@ recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:6>,
  [[<ore:plateSteel>, <minecraft:bucket>, <ore:plateSteel>],
   [<minecraft:iron_bars>, <minecraft:fire_charge>, <minecraft:iron_bars>],
   [<ore:plateSteel>, <minecraft:furnace>, <ore:plateSteel>]]);
+
+  //Metals Chest
+recipes.remove(<Railcraft:tile.railcraft.machine.beta:12>);
+recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:12>,
+ [[<ore:gearSteel>, <ore:craftingPiston>, <ore:gearSteel>],
+  [<minecraft:piston>, <Railcraft:tile.railcraft.anvil>, <minecraft:piston>],
+  [<ore:gearSteel>, <ore:craftingPiston>, <ore:gearSteel>]]);
  
 //LP Boiler
 recipes.remove(<Railcraft:tile.railcraft.machine.beta:3>);
@@ -163,3 +174,10 @@ recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:4>,
  [[<ore:plateSteel>, null, null],
   [<ore:plateSteel>, null, null],
   [null, null, null]]);
+ 
+//Electric Locomotive
+recipes.remove(<Railcraft:cart.loco.electric>);
+recipes.addShaped(<Railcraft:cart.loco.electric>.withTag({model: "railcraft:default"}),
+ [[<minecraft:redstone_lamp>, <ore:plateSteel>, <ore:craftingToolWrench>],
+  [<ore:plateSteel>, <Railcraft:tile.railcraft.machine.epsilon>, <ore:plateSteel>],
+  [<ore:gearSteel>, <minecraft:minecart>, <ore:gearSteel>]]);

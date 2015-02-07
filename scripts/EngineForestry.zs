@@ -7,7 +7,7 @@ recipes.remove(<Forestry:engine:4>);
 
 recipes.addShaped(<Forestry:engine>, [
 [<ore:plateTin>, <ore:plateTin>, <ore:plateTin>],
-[<minecraft:glass>, <Forestry:sturdyMachine>, <minecraft:glass>],
+[<minecraft:glass>, <ore:circuitBasic>, <minecraft:glass>],
 [<ore:gearTin>, <minecraft:piston>, <ore:gearTin>]]);
 
 recipes.addShaped(<Forestry:engine:1>, [
