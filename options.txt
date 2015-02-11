@@ -100,13 +100,13 @@ key_Baubles Inventory:44
 key_Change Wand Focus:33
 key_Activate Hover Harness:35
 key_Misc Wand Toggle:34
-key_key.betterstorage.backpackOpen:48
-key_key.betterstorage.drinkingHelmet:77
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
 key_waila.keybind.recipe:81
 key_waila.keybind.usage:75
+key_key.betterstorage.backpackOpen:48
+key_key.betterstorage.drinkingHelmet:77
 key_invtweaks.key.sort:19
 key_key.aspectMenu:23
 key_key.betterfoliage.gui:66

@@ -116,6 +116,8 @@ INFO: Removing 1 recipes
 INFO: Adding recipe for Analyzer
 INFO: Adding recipe for Analyzer
 INFO: Adding recipe for Infuser
+INFO: Removing 6 recipes
+INFO: Hiding tile.bt_bigSapling.BigOakSapling in NEI
 INFO: Removing 1 recipes
 INFO: Removing 1 recipes
 INFO: Adding recipe for Iron Bore Head
@@ -152,42 +154,119 @@ INFO: Adding recipe for Electrical Engine
 INFO: Adding recipe for Peat-fired Engine
 INFO: Adding recipe for Biogas Engine
 INFO: Adding recipe for Clockwork Engine
+ERROR: EngineRailcraft.zs:3: Could not resolve <Railcraft : tile . railcraft . machine . beta : 7>
+ERROR: EngineRailcraft.zs:4: Could not resolve <Railcraft : tile . railcraft . machine . beta : 8>
+ERROR: EngineRailcraft.zs:5: Could not resolve <Railcraft : tile . railcraft . machine . beta : 9>
+ERROR: EngineRailcraft.zs:7: Could not resolve <Railcraft : tile . railcraft . machine . beta : 7>
+ERROR: EngineRailcraft.zs:12: Could not resolve <Railcraft : tile . railcraft . machine . beta : 8>
+ERROR: EngineRailcraft.zs:17: Could not resolve <Railcraft : tile . railcraft . machine . beta : 9>
+ERROR: Error executing EngineRailcraft.zs: null
+java.lang.NullPointerException
+	at minetweaker.mc1710.recipes.MCRecipeManager.remove(MCRecipeManager.java:94)
+	at EngineRailcraft.__script__(EngineRailcraft.zs:3)
+	at __ZenMain__.run(EngineRailcraft.zs)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:157)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:624)
+	at minetweaker.MineTweakerImplementationAPI.onServerStart(MineTweakerImplementationAPI.java:555)
+	at minetweaker.mc1710.MineTweakerMod.onServerAboutToStart(MineTweakerMod.java:166)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:513)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:208)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:187)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:118)
+	at cpw.mods.fml.common.Loader.serverAboutToStart(Loader.java:809)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerAboutToStart(FMLCommonHandler.java:273)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:91)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
 INFO: Removing 1 recipes
-INFO: Removing 1 recipes
-INFO: Removing 1 recipes
-INFO: Adding recipe for Hobbyist's Steam Engine
-INFO: Adding recipe for Commercial Steam Engine
-INFO: Adding recipe for Industrial Steam Engine
-INFO: Removing 11 recipes
-INFO: Removing 9 recipes
 INFO: Removing 2 recipes
-INFO: Removing 14 recipes
+INFO: Removing 2 recipes
 INFO: Removing 1 recipes
 INFO: Removing 1 recipes
-INFO: Adding recipe for Fluid Storage Housing
+INFO: Removing 2 recipes
+INFO: Removing 2 recipes
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 2 recipes
+INFO: Removing 2 recipes
+INFO: Removing 2 recipes
+INFO: Removing 2 recipes
+INFO: Removing 2 recipes
+INFO: Removing 2 recipes
+INFO: Removing 2 recipes
+INFO: Removing 2 recipes
+INFO: Removing 2 recipes
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Adding recipe for ME Fluid Export Bus
+INFO: Adding recipe for ME Fluid Import Bus
+INFO: Adding recipe for ME Fluid Storage Bus
+INFO: Adding recipe for ME Fluid Terminal
+INFO: Adding recipe for ME Fluid Level Emitter
+INFO: Adding recipe for ME Fluid Annihilation Plane
+INFO: Adding recipe for ME Fluid Formation Plane
+INFO: Adding recipe for ME Drive Fixture
+INFO: Adding recipe for ME 1k Fluid Storage
+INFO: Adding recipe for ME 1k Fluid Storage
+INFO: Adding recipe for ME 4k Fluid Storage
+INFO: Adding recipe for ME 4k Fluid Storage
+INFO: Adding recipe for ME 16k Fluid Storage
+INFO: Adding recipe for ME 16k Fluid Storage
+INFO: Adding recipe for ME 64k Fluid Storage
+INFO: Adding recipe for ME 64k Fluid Storage
+INFO: Adding recipe for ME 256k Fluid Storage
+INFO: Adding recipe for ME 256k Fluid Storage
+INFO: Adding recipe for ME 1024k Fluid Storage
+INFO: Adding recipe for ME 1024k Fluid Storage
+INFO: Adding recipe for ME 4096k Fluid Storage
+INFO: Adding recipe for ME 4096k Fluid Storage
+INFO: Adding recipe for ME 256k Storage
+INFO: Adding recipe for ME 256k Storage
+INFO: Adding recipe for ME 1024k Storage
+INFO: Adding recipe for ME 1024k Storage
+INFO: Adding recipe for ME 4096k Storage
+INFO: Adding recipe for ME 4096k Storage
+INFO: Adding recipe for ME 16384k Storage
+INFO: Adding recipe for ME 16384k Storage
+INFO: Adding recipe for ME Fluid Pattern
 INFO: Adding recipe for Advanced Storage Housing
-INFO: Adding recipe for ME 256k Storage
-INFO: Adding recipe for ME 256k Storage
-INFO: Adding recipe for ME 1024k Storage
-INFO: Adding recipe for ME 1024k Storage
-INFO: Adding recipe for ME 4096k Storage
-INFO: Adding recipe for ME 4096k Storage
-INFO: Adding recipe for ME 16384k Storage
-INFO: Adding recipe for ME 16384k Storage
-INFO: Adding recipe for ME 1k Fluid Storage
-INFO: Adding recipe for ME 1k Fluid Storage
-INFO: Adding recipe for ME 4k Fluid Storage
-INFO: Adding recipe for ME 4k Fluid Storage
-INFO: Adding recipe for ME 16k Fluid Storage
-INFO: Adding recipe for ME 16k Fluid Storage
-INFO: Adding recipe for ME 64k Fluid Storage
-INFO: Adding recipe for ME 64k Fluid Storage
-INFO: Adding recipe for ME 256k Fluid Storage
-INFO: Adding recipe for ME 256k Fluid Storage
-INFO: Adding recipe for ME 1024k Fluid Storage
-INFO: Adding recipe for ME 1024k Fluid Storage
-INFO: Adding recipe for ME 4096k Fluid Storage
-INFO: Adding recipe for ME 4096k Fluid Storage
+INFO: Adding recipe for Fluid Storage Housing
 INFO: Adding recipe for 256k ME Storage Component
 INFO: Adding recipe for 1024k ME Storage Component
 INFO: Adding recipe for 4096k ME Storage Component
@@ -241,6 +320,15 @@ INFO: Removing 1 recipes
 INFO: Adding recipe for Still
 INFO: Removing 1 recipes
 INFO: Adding recipe for Rainmaker
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Hiding item.for.gearCopper in NEI
+INFO: Hiding item.for.gearTin in NEI
+INFO: Hiding item.for.gearBronze in NEI
+INFO: Removing Tin Gear from ore dictionary entry gearTin
+INFO: Removing Copper Gear from ore dictionary entry gearCopper
+INFO: Removing Bronze Gear from ore dictionary entry gearBronze
 INFO: Removing 1 recipes
 INFO: Removing 1 recipes
 INFO: Removing 1 recipes
@@ -300,8 +388,170 @@ INFO: Adding recipe for Iron Horse Armor
 INFO: Adding recipe for Gold Horse Armor
 INFO: Adding recipe for Diamond Horse Armor
 INFO: Adding recipe for Name Tag
-INFO: Hiding item.openblocks.cursor in NEI
+INFO: Removing 2 recipes
 INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 0 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 3 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 furnace recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 2 recipes
+INFO: Removing Refined Iron Plate from ore dictionary entry plateSteel
+INFO: Removing 1 recipes
+INFO: Adding recipe for Generator
+INFO: Adding recipe for Geothermal Generator
+INFO: Adding recipe for Electric Heat Generator
+INFO: Adding recipe for Stirling Generator
+INFO: Adding recipe for Kinetic Wind Generator
+INFO: Adding recipe for Reactor Chamber
+INFO: Adding recipe for Heat Conductor
+INFO: Adding recipe for Advanced RE-Battery
+INFO: Adding recipe for BatBox
+INFO: Adding recipe for CESU
+INFO: Adding recipe for MFE
+INFO: Adding recipe for MFSU
+INFO: Adding recipe for Scaffold
+INFO: Adding recipe for Iron Scaffold
+INFO: Adding recipe for Mining Laser
+INFO: Adding recipe for BatPack
+INFO: Adding recipe for Adv.Batpack
+INFO: Adding recipe for Energypack
+INFO: Adding recipe for Electric Jetpack
+INFO: Adding recipe for Jetpack
+INFO: Adding recipe for Reactor Plating
+INFO: Adding recipe for Heat-Capacity Reactor Plating
+INFO: Adding recipe for Containment Reactor Plating
+INFO: Adding recipe for Copper Cable
+INFO: Adding recipe for Gold Cable
+INFO: Adding recipe for HV Cable
+INFO: Adding recipe for Tin Cable
+INFO: Adding recipe for Wood Rotor Blade
+INFO: Adding recipe for Kinetic Wind Generator Rotor (Wood)
+INFO: Adding recipe for Iron Rotor Blade
+INFO: Adding recipe for Kinetic Wind Generator Rotor (Iron)
+INFO: Adding recipe for Steel Rotor Blade
+INFO: Adding recipe for Steel Rotor Blade
+INFO: Adding recipe for Kinetic Wind Generator Rotor (Steel)
+INFO: Adding recipe for Carbon Rotor Blade
+INFO: Adding recipe for Kinetic Wind Generator Rotor (Carbon)
+INFO: Adding recipe for Steam Turbine Blade
+INFO: Adding recipe for Iron Furnace
+INFO: Adding recipe for Neutron Reflector
+INFO: Adding recipe for Heat Vent
+INFO: Adding recipe for Reactor Heat Vent
+INFO: Adding recipe for Overclocked Heat Vent
+INFO: Adding recipe for Advanced Heat Vent
+INFO: Adding recipe for Component Heat Vent
+INFO: Adding recipe for Heat Exchanger
+INFO: Adding recipe for Reactor Heat Exchanger
+INFO: Adding recipe for Component Heat Exchanger
+INFO: Adding recipe for Advanced Heat Exchanger
+INFO: Adding recipe for RSH-Condensator
+INFO: Adding recipe for RSH-Condensator
+INFO: Adding recipe for LZH-Condensator
+INFO: Adding recipe for LZH-Condensator
+INFO: Adding assembler recipe for <IC2:blockGenerator:3>
+INFO: Adding assembler recipe for <IC2:blockMachine:6>
+INFO: Adding assembler recipe for <IC2:blockMachine2:13>
+INFO: Adding assembler recipe for <IC2:blockHeatGenerator:2>
+INFO: Adding assembler recipe for <IC2:blockGenerator:6>
+INFO: Adding assembler recipe for <IC2:blockElectric:3>
+INFO: Adding assembler recipe for <IC2:blockElectric:4>
+INFO: Adding assembler recipe for <IC2:blockElectric:5>
+INFO: Adding assembler recipe for <IC2:blockElectric:6>
+INFO: Adding assembler recipe for <IC2:itemRecipePart>
+INFO: Adding assembler recipe for <IC2:itemPartCoalChunk>
+INFO: Adding assembler recipe for <IC2:reactorReflectorThick>
+INFO: Adding compressor recipe for Compressed Coal Ball
+INFO: Adding compressor recipe for Uranium Block
+INFO: Adding plate bender recipe for <IC2:itemDensePlates:7>
+INFO: Adding plate bender recipe for <IC2:itemDensePlates:8>
+INFO: Adding wiremill recipe for <gregtech:gt.blockmachines:1360>
+INFO: Adding wiremill recipe for <gregtech:gt.blockmachines:1420>
+INFO: Adding wiremill recipe for <gregtech:gt.blockmachines:1300>
+INFO: Adding wiremill recipe for <gregtech:gt.blockmachines:1240>
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Adding recipe for Stone Saw
+INFO: Adding recipe for Iron Saw
+INFO: Adding recipe for Diamond Saw
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Adding recipe for Assistant's base
+INFO: Removing 1 recipes
+INFO: Adding recipe for Map Controller Module
+INFO: Removing 1 recipes
+INFO: Adding recipe for Map Memory Module
 INFO: Removing 1 recipes
 INFO: Adding recipe for Item Cannon
 INFO: Removing 1 recipes
@@ -314,6 +564,22 @@ INFO: Removing 1 recipes
 INFO: Adding recipe for Tank
 INFO: Removing 1 recipes
 INFO: Adding recipe for Sonic Glasses
+INFO: Removing 2 recipes
+INFO: Adding recipe for Height Map Projector
+INFO: Removing 1 recipes
+INFO: Adding recipe for Vacuum Hopper
+INFO: Removing 2 recipes
+INFO: Adding recipe for Beam
+INFO: Adding recipe for Beam
+INFO: Removing 1 recipes
+INFO: Adding recipe for Crane Engine
+INFO: Removing 2 recipes
+INFO: Adding recipe for Crane Magnet
+INFO: Adding recipe for Crane Magnet
+INFO: Removing 1 recipes
+INFO: Adding recipe for Crane Control
+INFO: Removing 1 recipes
+INFO: Adding recipe for Crane Backpack
 INFO: Clearing Research Pages from GOLEMIRON
 INFO: Adding Research Page to GOLEMIRON
 INFO: Setting localization for the key: gp.research_page.GOLEMIRON to Iron golems are tough and strong little constructs, capable of holding a single upgrade.<BR>Letting the magic do its work, combining memory, processing and materials end up creating a versatile construct, capable of many a task.<BR>Their weight causes them to sink in water, and they move quite slowly.
@@ -344,6 +610,85 @@ INFO: Hiding item.projectred.core.part.partsandcoalcomp in NEI
 INFO: Hiding item.projectred.core.part.partredsiliconcomp in NEI
 INFO: Hiding item.projectred.core.part.partglowsiliconcomp in NEI
 INFO: Removing 1 recipes
+INFO: Adding wiremill recipe for <ProjRed|Transmission:projectred.transmission.wire> * 4
+INFO: Removing 2 recipes
+INFO: Adding recipe for Black Insulated Wire
+INFO: Removing 2 recipes
+INFO: Adding recipe for Red Insulated Wire
+INFO: Removing 2 recipes
+INFO: Adding recipe for Green Insulated Wire
+INFO: Removing 2 recipes
+INFO: Adding recipe for Brown Insulated Wire
+INFO: Removing 2 recipes
+INFO: Adding recipe for Blue Insulated Wire
+INFO: Removing 2 recipes
+INFO: Adding recipe for Purple Insulated Wire
+INFO: Removing 2 recipes
+INFO: Adding recipe for Cyan Insulated Wire
+INFO: Removing 2 recipes
+INFO: Adding recipe for Light Grey Insulated Wire
+INFO: Removing 2 recipes
+INFO: Adding recipe for Grey Insulated Wire
+INFO: Removing 2 recipes
+INFO: Adding recipe for Pink Insulated Wire
+INFO: Removing 2 recipes
+INFO: Adding recipe for Lime Insulated Wire
+INFO: Removing 2 recipes
+INFO: Adding recipe for Yellow Insulated Wire
+INFO: Removing 2 recipes
+INFO: Adding recipe for Light Blue Insulated Wire
+INFO: Removing 2 recipes
+INFO: Adding recipe for Magenta Insulated Wire
+INFO: Removing 2 recipes
+INFO: Adding recipe for Orange Insulated Wire
+INFO: Removing 2 recipes
+INFO: Adding recipe for White Insulated Wire
+ERROR: Railcraft.zs:17: Could not resolve <Railcraft : tile . railcraft . cube>
+ERROR: Railcraft.zs:18: Could not resolve <Railcraft : tile . railcraft . machine . alpha : 8>
+ERROR: Railcraft.zs:56: Could not resolve <Railcraft : tile . railcraft . cube>
+ERROR: Railcraft.zs:60: Could not resolve <Railcraft : tile . railcraft . machine . alpha : 3>
+ERROR: Railcraft.zs:61: Could not resolve <Railcraft : tile . railcraft . machine . alpha : 3>
+ERROR: Railcraft.zs:66: Could not resolve <Railcraft : tile . railcraft . machine . alpha : 13>
+ERROR: Railcraft.zs:67: Could not resolve <Railcraft : tile . railcraft . machine . alpha : 13>
+ERROR: Railcraft.zs:72: Could not resolve <Railcraft : tile . railcraft . machine . alpha : 11>
+ERROR: Railcraft.zs:73: Could not resolve <Railcraft : tile . railcraft . machine . alpha : 11>
+ERROR: Railcraft.zs:78: Could not resolve <Railcraft : tile . railcraft . machine . alpha : 6>
+ERROR: Railcraft.zs:79: Could not resolve <Railcraft : tile . railcraft . machine . alpha : 6>
+ERROR: Railcraft.zs:84: Could not resolve <Railcraft : tile . railcraft . machine . alpha : 1>
+ERROR: Railcraft.zs:85: Could not resolve <Railcraft : tile . railcraft . machine . alpha : 1>
+ERROR: Railcraft.zs:90: Could not resolve <Railcraft : tile . railcraft . track : 2264>
+ERROR: Railcraft.zs:91: Could not resolve <Railcraft : tile . railcraft . track : 2264>
+ERROR: Railcraft.zs:96: Could not resolve <Railcraft : tile . railcraft . detector : 10>
+ERROR: Railcraft.zs:97: Could not resolve <Railcraft : tile . railcraft . detector : 10>
+ERROR: Railcraft.zs:102: Could not resolve <Railcraft : tile . railcraft . machine . gamma : 2>
+ERROR: Railcraft.zs:103: Could not resolve <Railcraft : tile . railcraft . machine . gamma : 2>
+ERROR: Railcraft.zs:105: Could not resolve <Railcraft : tile . railcraft . machine . gamma>
+ERROR: Railcraft.zs:108: Could not resolve <Railcraft : tile . railcraft . machine . gamma : 3>
+ERROR: Railcraft.zs:109: Could not resolve <Railcraft : tile . railcraft . machine . gamma : 3>
+ERROR: Railcraft.zs:111: Could not resolve <Railcraft : tile . railcraft . machine . gamma : 1>
+ERROR: Railcraft.zs:114: Could not resolve <Railcraft : tile . railcraft . machine . beta>
+ERROR: Railcraft.zs:115: Could not resolve <Railcraft : tile . railcraft . machine . beta>
+ERROR: Railcraft.zs:120: Could not resolve <Railcraft : tile . railcraft . machine . beta : 1>
+ERROR: Railcraft.zs:121: Could not resolve <Railcraft : tile . railcraft . machine . beta : 1>
+ERROR: Railcraft.zs:126: Could not resolve <Railcraft : tile . railcraft . machine . beta : 2>
+ERROR: Railcraft.zs:127: Could not resolve <Railcraft : tile . railcraft . machine . beta : 2>
+ERROR: Railcraft.zs:133: Could not resolve <Railcraft : tile . railcraft . machine . beta : 13>
+ERROR: Railcraft.zs:134: Could not resolve <Railcraft : tile . railcraft . machine . beta : 13>
+ERROR: Railcraft.zs:139: Could not resolve <Railcraft : tile . railcraft . machine . beta : 14>
+ERROR: Railcraft.zs:140: Could not resolve <Railcraft : tile . railcraft . machine . beta : 14>
+ERROR: Railcraft.zs:145: Could not resolve <Railcraft : tile . railcraft . machine . beta : 15>
+ERROR: Railcraft.zs:146: Could not resolve <Railcraft : tile . railcraft . machine . beta : 15>
+ERROR: Railcraft.zs:151: Could not resolve <Railcraft : tile . railcraft . machine . beta : 6>
+ERROR: Railcraft.zs:152: Could not resolve <Railcraft : tile . railcraft . machine . beta : 6>
+ERROR: Railcraft.zs:158: Could not resolve <Railcraft : tile . railcraft . machine . beta : 12>
+ERROR: Railcraft.zs:159: Could not resolve <Railcraft : tile . railcraft . machine . beta : 12>
+ERROR: Railcraft.zs:161: Could not resolve <Railcraft : tile . railcraft . anvil>
+ERROR: Railcraft.zs:165: Could not resolve <Railcraft : tile . railcraft . machine . beta : 3>
+ERROR: Railcraft.zs:166: Could not resolve <Railcraft : tile . railcraft . machine . beta : 3>
+ERROR: Railcraft.zs:172: Could not resolve <Railcraft : tile . railcraft . machine . beta : 4>
+ERROR: Railcraft.zs:173: Could not resolve <Railcraft : tile . railcraft . machine . beta : 4>
+ERROR: Railcraft.zs:182: Could not resolve <Railcraft : tile . railcraft . machine . epsilon>
+INFO: Removing 1 recipes
 INFO: Removing 1 recipes
 INFO: Removing 1 recipes
 INFO: Removing 1 recipes
@@ -351,61 +696,95 @@ INFO: Removing 3 recipes
 INFO: Removing 0 recipes
 INFO: Removing 1 recipes
 INFO: Removing 1 recipes
-INFO: Removing 1 recipes
-INFO: Removing 0 recipes
-INFO: Removing 1 recipes
-INFO: Removing 1 recipes
-INFO: Removing 7 recipes
-INFO: Adding recipe for Tunnel Bore
-INFO: Adding recipe for Diamond Bore Head
-INFO: Adding recipe for Steam Locomotive
-INFO: Adding recipe for Undercutter Cart
-INFO: Adding recipe for Track Relayer Cart
-INFO: Adding wiremill recipe for <Railcraft:firestone.cut>
-INFO: Adding compressor recipe for Block of Coal Coke
-INFO: Removing 1 recipes
-INFO: Adding recipe for Steam Oven
-INFO: Removing 1 recipes
-INFO: Adding recipe for Engraving Bench
-INFO: Removing 1 recipes
-INFO: Adding recipe for Feed Station
-INFO: Removing 1 recipes
-INFO: Adding recipe for Trade Station
-INFO: Removing 1 recipes
-INFO: Adding recipe for Steam Turbine Housing
-INFO: Removing 0 recipes
-INFO: Adding recipe for tile.railcraft.default.name
-INFO: Removing 1 recipes
-INFO: Adding recipe for Detector - Energy
-INFO: Removing 1 recipes
-INFO: Adding recipe for Adv. Item Loader
-INFO: Removing 1 recipes
-INFO: Adding recipe for Adv. Item Unloader
-INFO: Removing 1 recipes
-INFO: Adding recipe for Iron Tank Wall
-INFO: Removing 2 recipes
-INFO: Adding recipe for Iron Tank Gauge
-INFO: Removing 2 recipes
-INFO: Adding recipe for Iron Tank Valve
-INFO: Removing 1 recipes
-INFO: Adding recipe for Steel Tank Wall
-INFO: Removing 1 recipes
-INFO: Adding recipe for Steel Tank Gauge
-INFO: Removing 1 recipes
-INFO: Adding recipe for Steel Tank Valve
-INFO: Removing 0 recipes
-INFO: Adding recipe for Liquid Fueled Boiler Firebox
-INFO: Removing 0 recipes
-INFO: Adding recipe for Low Pressure Boiler Tank
-INFO: Removing 0 recipes
-INFO: Adding recipe for High Pressure Boiler Tank
+ERROR: Error executing Railcraft.zs: null
+java.lang.NullPointerException
+	at minetweaker.mc1710.recipes.MCRecipeManager.remove(MCRecipeManager.java:94)
+	at Railcraft.__script__(Railcraft.zs:17)
+	at __ZenMain__.run(Railcraft.zs)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:157)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:624)
+	at minetweaker.MineTweakerImplementationAPI.onServerStart(MineTweakerImplementationAPI.java:555)
+	at minetweaker.mc1710.MineTweakerMod.onServerAboutToStart(MineTweakerMod.java:166)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:513)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:208)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:187)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:118)
+	at cpw.mods.fml.common.Loader.serverAboutToStart(Loader.java:809)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerAboutToStart(FMLCommonHandler.java:273)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:91)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+ERROR: RainTank-Bottler.zs:6: Could not resolve <Railcraft : tile . railcraft . machine . beta : 14>
+ERROR: RainTank-Bottler.zs:8: Could not resolve <Railcraft : tile . railcraft . machine . beta : 14>
+ERROR: RainTank-Bottler.zs:13: Could not resolve <Railcraft : tile . railcraft . machine . beta : 14>
+ERROR: RainTank-Bottler.zs:15: Could not resolve <Railcraft : tile . railcraft . machine . beta : 14>
 INFO: Removing 1 recipes
 INFO: Adding recipe for Raintank
 INFO: Removing 1 recipes
 INFO: Adding recipe for Bottler
-INFO: Removing 1 recipes
-INFO: Adding recipe for Water Tank Siding
-INFO: Adding recipe for Water Tank Siding
+ERROR: RainTank.zs:3: Could not resolve <Railcraft : tile . railcraft . machine . alpha : 14>
+ERROR: RainTank.zs:5: Could not resolve <Railcraft : tile . railcraft . machine . alpha : 14>
+ERROR: RainTank.zs:10: Could not resolve <Railcraft : tile . railcraft . machine . alpha : 14>
+ERROR: Error executing RainTank.zs: null
+java.lang.NullPointerException
+	at minetweaker.mc1710.recipes.MCRecipeManager.remove(MCRecipeManager.java:94)
+	at RainTank.__script__(RainTank.zs:3)
+	at __ZenMain__.run(RainTank.zs)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:157)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:624)
+	at minetweaker.MineTweakerImplementationAPI.onServerStart(MineTweakerImplementationAPI.java:555)
+	at minetweaker.mc1710.MineTweakerMod.onServerAboutToStart(MineTweakerMod.java:166)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:513)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:208)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:187)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:118)
+	at cpw.mods.fml.common.Loader.serverAboutToStart(Loader.java:809)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerAboutToStart(FMLCommonHandler.java:273)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:91)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
 INFO: Removing 1 recipes
 INFO: Removing 1 recipes
 INFO: Removing 1 recipes
@@ -433,64 +812,59 @@ INFO: Adding recipe for Red Sand
 INFO: Adding recipe for Cobweb
 INFO: Adding recipe for Compass
 INFO: Removing Research Tab: RAILCRAFT
-INFO: Orphaning Research: TRANSSILVER
-INFO: Removing Research: TRANSSILVER
-INFO: Orphaning Research: TRANSLEAD
-INFO: Removing Research: TRANSLEAD
-INFO: Orphaning Research: TRANSGOLD
-INFO: Removing Research: TRANSGOLD
-INFO: Orphaning Research: TRANSTIN
-INFO: Removing Research: TRANSTIN
-INFO: Orphaning Research: TRANSCOPPER
-INFO: Removing Research: TRANSCOPPER
-INFO: Orphaning Research: TRANSIRON
-INFO: Removing Research: TRANSIRON
-INFO: Orphaning Research: ELEMENTALSWORD
-INFO: Removing Research: ELEMENTALSWORD
-INFO: Orphaning Research: ELEMENTALHOE
-INFO: Removing Research: ELEMENTALHOE
-INFO: Orphaning Research: ELEMENTALAXE
-INFO: Removing Research: ELEMENTALAXE
-INFO: Orphaning Research: ELEMENTALSHOVEL
-INFO: Removing Research: ELEMENTALSHOVEL
-INFO: Orphaning Research: ELEMENTALPICK
-INFO: Removing Research: ELEMENTALPICK
-INFO: Orphaning Research: ARCANEBORE
-INFO: Removing Research: ARCANEBORE
-INFO: Orphaning Research: GOLEMCLAY
-INFO: Removing Research: GOLEMCLAY
-INFO: Orphaning Research: GOLEMSTONE
-INFO: Removing Research: GOLEMSTONE
-INFO: Orphaning Research: GOLEMWOOD
-INFO: Removing Research: GOLEMWOOD
-INFO: Orphaning Research: GOLEMTALLOW
-INFO: Removing Research: GOLEMTALLOW
-INFO: Orphaning Research: GOLEMFLESH
-INFO: Removing Research: GOLEMFLESH
-INFO: Orphaning Research: GOLEMSTRAW
-INFO: Removing Research: GOLEMSTRAW
-INFO: Setting tag for GOLEMIRON
-INFO: Setting tag for GOLEMIRON
-INFO: Moving Research GOLEMIRON to GOLEMANCY
-INFO: Moving Research GOLEMFETTER to GOLEMANCY
-INFO: Moving Research GOLEMTHAUMIUM to GOLEMANCY
-INFO: Adding Prerequisites to HUNGRYCHEST
-INFO: Adding Prerequisites to COREGATHER
-INFO: Adding Prerequisites to GOLEMBELL
-INFO: Adding Prerequisites to TRAVELTRUNK
-INFO: Adding Prerequisites to GOLEMFETTER
 INFO: Removing Rolling Machine Recipe for :Iron Plate
 INFO: Removing Rolling Machine Recipe for :Steel Plate
 INFO: Removing Rolling Machine Recipe for :Tin Plate
 INFO: Adding Rolling Machine Recipe for :Iron Plate
 INFO: Adding Rolling Machine Recipe for :Steel Plate
 INFO: Adding recipe for Saddle
-INFO: Removing 0 recipes
-INFO: Removing 1 recipes
-INFO: Removing 1 recipes
-INFO: Adding recipe for Steel Tank Wall
-INFO: Adding recipe for Steel Tank Gauge
-INFO: Adding recipe for Steel Tank Valve
+ERROR: SteelTanks.zs:3: Could not resolve <Railcraft : tile . railcraft . machine . beta : 13>
+ERROR: SteelTanks.zs:7: Could not resolve <Railcraft : tile . railcraft . machine . beta : 14>
+ERROR: SteelTanks.zs:12: Could not resolve <Railcraft : tile . railcraft . machine . beta : 15>
+ERROR: SteelTanks.zs:18: Could not resolve <Railcraft : tile . railcraft . machine . beta : 13>
+ERROR: SteelTanks.zs:23: Could not resolve <Railcraft : tile . railcraft . machine . beta : 14>
+ERROR: SteelTanks.zs:25: Could not resolve <Railcraft : tile . railcraft . glass : *>
+ERROR: SteelTanks.zs:25: Could not resolve <Railcraft : tile . railcraft . glass : *>
+ERROR: SteelTanks.zs:28: Could not resolve <Railcraft : tile . railcraft . machine . beta : 15>
+ERROR: Error executing SteelTanks.zs: null
+java.lang.NullPointerException
+	at minetweaker.mc1710.recipes.MCRecipeManager.removeShaped(MCRecipeManager.java:140)
+	at SteelTanks.__script__(SteelTanks.zs:3)
+	at __ZenMain__.run(SteelTanks.zs)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:157)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:624)
+	at minetweaker.MineTweakerImplementationAPI.onServerStart(MineTweakerImplementationAPI.java:555)
+	at minetweaker.mc1710.MineTweakerMod.onServerAboutToStart(MineTweakerMod.java:166)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:513)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:208)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:187)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:118)
+	at cpw.mods.fml.common.Loader.serverAboutToStart(Loader.java:809)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerAboutToStart(FMLCommonHandler.java:273)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:91)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
 INFO: Removing 1 recipes
 INFO: Adding recipe for Thaumometer
 INFO: Refreshing Research: THAUMOMETER
